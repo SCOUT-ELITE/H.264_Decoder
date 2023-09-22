@@ -27,7 +27,7 @@ At the core of our team's mission lies the spirit of open-source sharing. Throug
 3. Empower industries and applications reliant on camera and object detection algorithms to achieve superior video playback performance, enabling new possibilities and applications.
 
 **Block Diagram**
-![Block Daigram](https://github.com/SCOUT-ELITE/H.264_Decoder/assets/60862845/9dd11655-52e1-4779-8d5e-c92c1b4e25a9)
+![Screenshot](docs/block_diagram.png)
 
 **Conclusion:**
 
