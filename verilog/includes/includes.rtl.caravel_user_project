@@ -16,5 +16,7 @@
 # Caravel user project includes
 -v $(USER_PROJECT_VERILOG)/rtl/user_project_wrapper.v	     
 -v $(USER_PROJECT_VERILOG)/rtl/user_proj_example.v
-
- 
+-v $(USER_PROJECT_VERILOG)/rtl/egd_top.v
+-v $(USER_PROJECT_VERILOG)/rtl/BitStream_buffer.v
+-v $(USER_PROJECT_VERILOG)/rtl/exp_golomb_decoding.v
+-v $(USER_PROJECT_VERILOG)/rtl/heading_one_detector.v
