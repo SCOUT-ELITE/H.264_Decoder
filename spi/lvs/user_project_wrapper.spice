@@ -1,16 +1,16 @@
 * NGSPICE file created from user_project_wrapper.ext - technology: sky130A
 
-* Black-box entry subcircuit for egd_top abstract view
-.subckt egd_top BitStream_buffer_input[0] BitStream_buffer_input[10] BitStream_buffer_input[11]
-+ BitStream_buffer_input[12] BitStream_buffer_input[13] BitStream_buffer_input[14]
-+ BitStream_buffer_input[15] BitStream_buffer_input[1] BitStream_buffer_input[2] BitStream_buffer_input[3]
-+ BitStream_buffer_input[4] BitStream_buffer_input[5] BitStream_buffer_input[6] BitStream_buffer_input[7]
-+ BitStream_buffer_input[8] BitStream_buffer_input[9] clk exp_golomb_decoding_output[0]
-+ exp_golomb_decoding_output[1] exp_golomb_decoding_output[2] exp_golomb_decoding_output[3]
-+ exp_golomb_decoding_output[4] exp_golomb_decoding_output[5] exp_golomb_decoding_output[6]
-+ exp_golomb_decoding_output[7] exp_golomb_sel[0] exp_golomb_sel[1] half_fill_counter[0]
-+ half_fill_counter[1] half_fill_counter[2] reset_counter[0] reset_counter[1] reset_counter[2]
-+ reset_counter[3] reset_n vccd1 vssd1
+* Black-box entry subcircuit for egd_top_wrapper abstract view
+.subckt egd_top_wrapper la_data_in_47_32[0] la_data_in_47_32[10] la_data_in_47_32[11]
++ la_data_in_47_32[12] la_data_in_47_32[13] la_data_in_47_32[14] la_data_in_47_32[15]
++ la_data_in_47_32[1] la_data_in_47_32[2] la_data_in_47_32[3] la_data_in_47_32[4]
++ la_data_in_47_32[5] la_data_in_47_32[6] la_data_in_47_32[7] la_data_in_47_32[8]
++ la_data_in_47_32[9] la_data_in_49_48[0] la_data_in_49_48[1] la_data_in_64 la_data_in_65
++ la_data_out_15_8[0] la_data_out_15_8[1] la_data_out_15_8[2] la_data_out_15_8[3]
++ la_data_out_15_8[4] la_data_out_15_8[5] la_data_out_15_8[6] la_data_out_15_8[7]
++ la_data_out_18_16[0] la_data_out_18_16[1] la_data_out_18_16[2] la_data_out_22_19[0]
++ la_data_out_22_19[1] la_data_out_22_19[2] la_data_out_22_19[3] la_oenb_64 vccd1
++ vssd1 wb_clk_i
 .ends
 
 .subckt user_project_wrapper analog_io[0] analog_io[10] analog_io[11] analog_io[12]
@@ -114,12 +114,12 @@
 + wbs_dat_o[28] wbs_dat_o[29] wbs_dat_o[2] wbs_dat_o[30] wbs_dat_o[31] wbs_dat_o[3]
 + wbs_dat_o[4] wbs_dat_o[5] wbs_dat_o[6] wbs_dat_o[7] wbs_dat_o[8] wbs_dat_o[9] wbs_sel_i[0]
 + wbs_sel_i[1] wbs_sel_i[2] wbs_sel_i[3] wbs_stb_i wbs_we_i
-Xegd_top la_data_in[10] la_data_in[20] la_data_in[21] la_data_in[22] la_data_in[23]
-+ la_data_in[24] la_data_in[25] la_data_in[11] la_data_in[12] la_data_in[13] la_data_in[14]
-+ la_data_in[15] la_data_in[16] la_data_in[17] la_data_in[18] la_data_in[19] la_data_in[8]
-+ la_data_out[8] la_data_out[9] la_data_out[10] la_data_out[11] la_data_out[12] la_data_out[13]
-+ la_data_out[14] la_data_out[15] la_data_in[26] la_data_in[27] la_data_out[16] la_data_out[17]
-+ la_data_out[18] la_data_out[19] la_data_out[20] la_data_out[21] la_data_out[22]
-+ la_data_in[9] vccd1 vssd1 egd_top
+Xegd_top_wrapper la_data_in[32] la_data_in[42] la_data_in[43] la_data_in[44] la_data_in[45]
++ la_data_in[46] la_data_in[47] la_data_in[33] la_data_in[34] la_data_in[35] la_data_in[36]
++ la_data_in[37] la_data_in[38] la_data_in[39] la_data_in[40] la_data_in[41] la_data_in[48]
++ la_data_in[49] la_data_in[64] la_data_in[65] la_data_out[8] la_data_out[9] la_data_out[10]
++ la_data_out[11] la_data_out[12] la_data_out[13] la_data_out[14] la_data_out[15]
++ la_data_out[16] la_data_out[17] la_data_out[18] la_data_out[19] la_data_out[20]
++ la_data_out[21] la_data_out[22] la_oenb[64] vccd1 vssd1 wb_clk_i egd_top_wrapper
 .ends
 
