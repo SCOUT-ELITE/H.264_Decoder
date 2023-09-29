@@ -95,11 +95,11 @@ egd_top_wrapper mprj (
     // LA Signals
     // Inputs to egd_top_wrapper
     .la_data_in_65(la_data_in[65]),
-    .la_data_in_64(la_data_in[64]),
+    //.la_data_in_64(la_data_in[64]),
     .la_data_in_47_32(la_data_in[47:32]),
     .la_data_in_49_48(la_data_in[49:48]),
-    .la_oenb_64(la_oenb[64]),
     //.la_oenb_65(la_oenb[65]),
+    //.la_oenb_64(la_oenb[64]),
     // Outputs to egd_top_wrapper
     .la_data_out_15_8(la_data_out[15:8]),
     .la_data_out_18_16(la_data_out[18:16]),

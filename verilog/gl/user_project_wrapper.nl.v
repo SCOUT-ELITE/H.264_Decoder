@@ -39,9 +39,7 @@ module user_project_wrapper (user_clock2,
  input [3:0] wbs_sel_i;
 
 
- egd_top_wrapper mprj (.la_data_in_64(la_data_in[64]),
-    .la_data_in_65(la_data_in[65]),
-    .la_oenb_64(la_oenb[64]),
+ egd_top_wrapper mprj (.la_data_in_65(la_data_in[65]),
     .wb_clk_i(wb_clk_i),
     .la_data_in_47_32({la_data_in[47],
     la_data_in[46],

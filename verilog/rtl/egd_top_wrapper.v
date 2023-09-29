@@ -36,10 +36,10 @@ module egd_top_wrapper (
 
     // Logic Analyzer Signals
     input           la_data_in_65,
-    input           la_data_in_64,
+    //input           la_data_in_64,
     input  [15:0]   la_data_in_47_32,
     input  [1:0]    la_data_in_49_48,
-    input           la_oenb_64,
+    //input           la_oenb_64,
     //input           la_oenb_65,
     output [7:0]    la_data_out_15_8,
     output [2:0]    la_data_out_18_16,
@@ -49,9 +49,12 @@ module egd_top_wrapper (
     wire rst;
 
     // Assuming LA probes [65:64] are for controlling the count clk & reset  
-    assign clk = (~la_oenb_64) ? la_data_in_64: wb_clk_i;
+    //assign clk = (~la_oenb_64) ? la_data_in_64: wb_clk_i;
+    //assign clk = la_data_in_64;
+    assign clk = wb_clk_i;
     //assign rst = (~la_oenb_65) ? la_data_in_65: wb_rst_i;
     assign rst = la_data_in_65;
+    //assign rst = wb_rst_i;
 
     egd_top egd_top (
         .clk                        (clk),

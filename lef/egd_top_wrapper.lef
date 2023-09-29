@@ -6,14 +6,14 @@ MACRO egd_top_wrapper
   CLASS BLOCK ;
   FOREIGN egd_top_wrapper ;
   ORIGIN 0.000 0.000 ;
-  SIZE 259.975 BY 270.695 ;
+  SIZE 255.470 BY 266.190 ;
   PIN la_data_in_47_32[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met2 ;
-        RECT 112.330 0.000 112.610 4.000 ;
+        RECT 116.470 0.000 116.750 4.000 ;
     END
   END la_data_in_47_32[0]
   PIN la_data_in_47_32[10]
@@ -22,7 +22,7 @@ MACRO egd_top_wrapper
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met2 ;
-        RECT 181.330 0.000 181.610 4.000 ;
+        RECT 190.070 0.000 190.350 4.000 ;
     END
   END la_data_in_47_32[10]
   PIN la_data_in_47_32[11]
@@ -31,7 +31,7 @@ MACRO egd_top_wrapper
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met2 ;
-        RECT 188.230 0.000 188.510 4.000 ;
+        RECT 197.430 0.000 197.710 4.000 ;
     END
   END la_data_in_47_32[11]
   PIN la_data_in_47_32[12]
@@ -40,7 +40,7 @@ MACRO egd_top_wrapper
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met2 ;
-        RECT 195.130 0.000 195.410 4.000 ;
+        RECT 204.790 0.000 205.070 4.000 ;
     END
   END la_data_in_47_32[12]
   PIN la_data_in_47_32[13]
@@ -49,7 +49,7 @@ MACRO egd_top_wrapper
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met2 ;
-        RECT 202.030 0.000 202.310 4.000 ;
+        RECT 212.150 0.000 212.430 4.000 ;
     END
   END la_data_in_47_32[13]
   PIN la_data_in_47_32[14]
@@ -58,7 +58,7 @@ MACRO egd_top_wrapper
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met2 ;
-        RECT 208.930 0.000 209.210 4.000 ;
+        RECT 219.510 0.000 219.790 4.000 ;
     END
   END la_data_in_47_32[14]
   PIN la_data_in_47_32[15]
@@ -67,7 +67,7 @@ MACRO egd_top_wrapper
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met2 ;
-        RECT 215.830 0.000 216.110 4.000 ;
+        RECT 226.870 0.000 227.150 4.000 ;
     END
   END la_data_in_47_32[15]
   PIN la_data_in_47_32[1]
@@ -76,7 +76,7 @@ MACRO egd_top_wrapper
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met2 ;
-        RECT 119.230 0.000 119.510 4.000 ;
+        RECT 123.830 0.000 124.110 4.000 ;
     END
   END la_data_in_47_32[1]
   PIN la_data_in_47_32[2]
@@ -85,7 +85,7 @@ MACRO egd_top_wrapper
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met2 ;
-        RECT 126.130 0.000 126.410 4.000 ;
+        RECT 131.190 0.000 131.470 4.000 ;
     END
   END la_data_in_47_32[2]
   PIN la_data_in_47_32[3]
@@ -94,7 +94,7 @@ MACRO egd_top_wrapper
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met2 ;
-        RECT 133.030 0.000 133.310 4.000 ;
+        RECT 138.550 0.000 138.830 4.000 ;
     END
   END la_data_in_47_32[3]
   PIN la_data_in_47_32[4]
@@ -103,7 +103,7 @@ MACRO egd_top_wrapper
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met2 ;
-        RECT 139.930 0.000 140.210 4.000 ;
+        RECT 145.910 0.000 146.190 4.000 ;
     END
   END la_data_in_47_32[4]
   PIN la_data_in_47_32[5]
@@ -112,7 +112,7 @@ MACRO egd_top_wrapper
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met2 ;
-        RECT 146.830 0.000 147.110 4.000 ;
+        RECT 153.270 0.000 153.550 4.000 ;
     END
   END la_data_in_47_32[5]
   PIN la_data_in_47_32[6]
@@ -121,7 +121,7 @@ MACRO egd_top_wrapper
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met2 ;
-        RECT 153.730 0.000 154.010 4.000 ;
+        RECT 160.630 0.000 160.910 4.000 ;
     END
   END la_data_in_47_32[6]
   PIN la_data_in_47_32[7]
@@ -130,7 +130,7 @@ MACRO egd_top_wrapper
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met2 ;
-        RECT 160.630 0.000 160.910 4.000 ;
+        RECT 167.990 0.000 168.270 4.000 ;
     END
   END la_data_in_47_32[7]
   PIN la_data_in_47_32[8]
@@ -139,7 +139,7 @@ MACRO egd_top_wrapper
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met2 ;
-        RECT 167.530 0.000 167.810 4.000 ;
+        RECT 175.350 0.000 175.630 4.000 ;
     END
   END la_data_in_47_32[8]
   PIN la_data_in_47_32[9]
@@ -148,16 +148,16 @@ MACRO egd_top_wrapper
     ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met2 ;
-        RECT 174.430 0.000 174.710 4.000 ;
+        RECT 182.710 0.000 182.990 4.000 ;
     END
   END la_data_in_47_32[9]
   PIN la_data_in_49_48[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.159000 ;
+    ANTENNAGATEAREA 0.213000 ;
     PORT
       LAYER met2 ;
-        RECT 222.730 0.000 223.010 4.000 ;
+        RECT 234.230 0.000 234.510 4.000 ;
     END
   END la_data_in_49_48[0]
   PIN la_data_in_49_48[1]
@@ -166,25 +166,16 @@ MACRO egd_top_wrapper
     ANTENNAGATEAREA 0.213000 ;
     PORT
       LAYER met2 ;
-        RECT 229.630 0.000 229.910 4.000 ;
+        RECT 241.590 0.000 241.870 4.000 ;
     END
   END la_data_in_49_48[1]
-  PIN la_data_in_64
-    DIRECTION INPUT ;
-    USE SIGNAL ;
-    ANTENNAGATEAREA 0.196500 ;
-    PORT
-      LAYER met2 ;
-        RECT 236.530 0.000 236.810 4.000 ;
-    END
-  END la_data_in_64
   PIN la_data_in_65
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.213000 ;
+    ANTENNAGATEAREA 0.247500 ;
     PORT
       LAYER met2 ;
-        RECT 250.330 0.000 250.610 4.000 ;
+        RECT 248.950 0.000 249.230 4.000 ;
     END
   END la_data_in_65
   PIN la_data_out_15_8[0]
@@ -193,7 +184,7 @@ MACRO egd_top_wrapper
     ANTENNADIFFAREA 2.673000 ;
     PORT
       LAYER met2 ;
-        RECT 8.830 0.000 9.110 4.000 ;
+        RECT 6.070 0.000 6.350 4.000 ;
     END
   END la_data_out_15_8[0]
   PIN la_data_out_15_8[1]
@@ -202,7 +193,7 @@ MACRO egd_top_wrapper
     ANTENNADIFFAREA 2.673000 ;
     PORT
       LAYER met2 ;
-        RECT 15.730 0.000 16.010 4.000 ;
+        RECT 13.430 0.000 13.710 4.000 ;
     END
   END la_data_out_15_8[1]
   PIN la_data_out_15_8[2]
@@ -211,7 +202,7 @@ MACRO egd_top_wrapper
     ANTENNADIFFAREA 2.673000 ;
     PORT
       LAYER met2 ;
-        RECT 22.630 0.000 22.910 4.000 ;
+        RECT 20.790 0.000 21.070 4.000 ;
     END
   END la_data_out_15_8[2]
   PIN la_data_out_15_8[3]
@@ -220,7 +211,7 @@ MACRO egd_top_wrapper
     ANTENNADIFFAREA 2.673000 ;
     PORT
       LAYER met2 ;
-        RECT 29.530 0.000 29.810 4.000 ;
+        RECT 28.150 0.000 28.430 4.000 ;
     END
   END la_data_out_15_8[3]
   PIN la_data_out_15_8[4]
@@ -229,7 +220,7 @@ MACRO egd_top_wrapper
     ANTENNADIFFAREA 2.673000 ;
     PORT
       LAYER met2 ;
-        RECT 36.430 0.000 36.710 4.000 ;
+        RECT 35.510 0.000 35.790 4.000 ;
     END
   END la_data_out_15_8[4]
   PIN la_data_out_15_8[5]
@@ -238,7 +229,7 @@ MACRO egd_top_wrapper
     ANTENNADIFFAREA 2.673000 ;
     PORT
       LAYER met2 ;
-        RECT 43.330 0.000 43.610 4.000 ;
+        RECT 42.870 0.000 43.150 4.000 ;
     END
   END la_data_out_15_8[5]
   PIN la_data_out_15_8[6]
@@ -256,7 +247,7 @@ MACRO egd_top_wrapper
     ANTENNADIFFAREA 2.673000 ;
     PORT
       LAYER met2 ;
-        RECT 57.130 0.000 57.410 4.000 ;
+        RECT 57.590 0.000 57.870 4.000 ;
     END
   END la_data_out_15_8[7]
   PIN la_data_out_18_16[0]
@@ -265,7 +256,7 @@ MACRO egd_top_wrapper
     ANTENNADIFFAREA 2.673000 ;
     PORT
       LAYER met2 ;
-        RECT 64.030 0.000 64.310 4.000 ;
+        RECT 64.950 0.000 65.230 4.000 ;
     END
   END la_data_out_18_16[0]
   PIN la_data_out_18_16[1]
@@ -274,7 +265,7 @@ MACRO egd_top_wrapper
     ANTENNADIFFAREA 2.673000 ;
     PORT
       LAYER met2 ;
-        RECT 70.930 0.000 71.210 4.000 ;
+        RECT 72.310 0.000 72.590 4.000 ;
     END
   END la_data_out_18_16[1]
   PIN la_data_out_18_16[2]
@@ -283,7 +274,7 @@ MACRO egd_top_wrapper
     ANTENNADIFFAREA 2.673000 ;
     PORT
       LAYER met2 ;
-        RECT 77.830 0.000 78.110 4.000 ;
+        RECT 79.670 0.000 79.950 4.000 ;
     END
   END la_data_out_18_16[2]
   PIN la_data_out_22_19[0]
@@ -292,7 +283,7 @@ MACRO egd_top_wrapper
     ANTENNADIFFAREA 2.673000 ;
     PORT
       LAYER met2 ;
-        RECT 84.730 0.000 85.010 4.000 ;
+        RECT 87.030 0.000 87.310 4.000 ;
     END
   END la_data_out_22_19[0]
   PIN la_data_out_22_19[1]
@@ -301,7 +292,7 @@ MACRO egd_top_wrapper
     ANTENNADIFFAREA 2.673000 ;
     PORT
       LAYER met2 ;
-        RECT 91.630 0.000 91.910 4.000 ;
+        RECT 94.390 0.000 94.670 4.000 ;
     END
   END la_data_out_22_19[1]
   PIN la_data_out_22_19[2]
@@ -310,7 +301,7 @@ MACRO egd_top_wrapper
     ANTENNADIFFAREA 2.673000 ;
     PORT
       LAYER met2 ;
-        RECT 98.530 0.000 98.810 4.000 ;
+        RECT 101.750 0.000 102.030 4.000 ;
     END
   END la_data_out_22_19[2]
   PIN la_data_out_22_19[3]
@@ -319,28 +310,19 @@ MACRO egd_top_wrapper
     ANTENNADIFFAREA 2.673000 ;
     PORT
       LAYER met2 ;
-        RECT 105.430 0.000 105.710 4.000 ;
+        RECT 109.110 0.000 109.390 4.000 ;
     END
   END la_data_out_22_19[3]
-  PIN la_oenb_64
-    DIRECTION INPUT ;
-    USE SIGNAL ;
-    ANTENNAGATEAREA 0.196500 ;
-    PORT
-      LAYER met2 ;
-        RECT 243.430 0.000 243.710 4.000 ;
-    END
-  END la_oenb_64
   PIN vccd1
     DIRECTION INOUT ;
     USE POWER ;
     PORT
       LAYER met4 ;
-        RECT 21.040 10.640 22.640 258.640 ;
+        RECT 21.040 10.640 22.640 253.200 ;
     END
     PORT
       LAYER met4 ;
-        RECT 174.640 10.640 176.240 258.640 ;
+        RECT 174.640 10.640 176.240 253.200 ;
     END
   END vccd1
   PIN vssd1
@@ -348,73 +330,67 @@ MACRO egd_top_wrapper
     USE GROUND ;
     PORT
       LAYER met4 ;
-        RECT 97.840 10.640 99.440 258.640 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 251.440 10.640 253.040 258.640 ;
+        RECT 97.840 10.640 99.440 253.200 ;
     END
   END vssd1
   PIN wb_clk_i
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.126000 ;
+    ANTENNAGATEAREA 0.196500 ;
     PORT
       LAYER met3 ;
-        RECT 0.000 134.680 4.000 135.280 ;
+        RECT 0.000 131.960 4.000 132.560 ;
     END
   END wb_clk_i
   OBS
       LAYER li1 ;
-        RECT 5.520 10.795 254.380 258.485 ;
+        RECT 5.520 10.795 249.780 253.045 ;
       LAYER met1 ;
-        RECT 5.520 6.840 254.380 258.640 ;
+        RECT 5.520 7.860 249.780 253.200 ;
       LAYER met2 ;
-        RECT 8.840 4.280 254.280 258.585 ;
-        RECT 9.390 3.670 15.450 4.280 ;
-        RECT 16.290 3.670 22.350 4.280 ;
-        RECT 23.190 3.670 29.250 4.280 ;
-        RECT 30.090 3.670 36.150 4.280 ;
-        RECT 36.990 3.670 43.050 4.280 ;
-        RECT 43.890 3.670 49.950 4.280 ;
-        RECT 50.790 3.670 56.850 4.280 ;
-        RECT 57.690 3.670 63.750 4.280 ;
-        RECT 64.590 3.670 70.650 4.280 ;
-        RECT 71.490 3.670 77.550 4.280 ;
-        RECT 78.390 3.670 84.450 4.280 ;
-        RECT 85.290 3.670 91.350 4.280 ;
-        RECT 92.190 3.670 98.250 4.280 ;
-        RECT 99.090 3.670 105.150 4.280 ;
-        RECT 105.990 3.670 112.050 4.280 ;
-        RECT 112.890 3.670 118.950 4.280 ;
-        RECT 119.790 3.670 125.850 4.280 ;
-        RECT 126.690 3.670 132.750 4.280 ;
-        RECT 133.590 3.670 139.650 4.280 ;
-        RECT 140.490 3.670 146.550 4.280 ;
-        RECT 147.390 3.670 153.450 4.280 ;
-        RECT 154.290 3.670 160.350 4.280 ;
-        RECT 161.190 3.670 167.250 4.280 ;
-        RECT 168.090 3.670 174.150 4.280 ;
-        RECT 174.990 3.670 181.050 4.280 ;
-        RECT 181.890 3.670 187.950 4.280 ;
-        RECT 188.790 3.670 194.850 4.280 ;
-        RECT 195.690 3.670 201.750 4.280 ;
-        RECT 202.590 3.670 208.650 4.280 ;
-        RECT 209.490 3.670 215.550 4.280 ;
-        RECT 216.390 3.670 222.450 4.280 ;
-        RECT 223.290 3.670 229.350 4.280 ;
-        RECT 230.190 3.670 236.250 4.280 ;
-        RECT 237.090 3.670 243.150 4.280 ;
-        RECT 243.990 3.670 250.050 4.280 ;
-        RECT 250.890 3.670 254.280 4.280 ;
+        RECT 6.080 4.280 249.220 253.145 ;
+        RECT 6.630 3.670 13.150 4.280 ;
+        RECT 13.990 3.670 20.510 4.280 ;
+        RECT 21.350 3.670 27.870 4.280 ;
+        RECT 28.710 3.670 35.230 4.280 ;
+        RECT 36.070 3.670 42.590 4.280 ;
+        RECT 43.430 3.670 49.950 4.280 ;
+        RECT 50.790 3.670 57.310 4.280 ;
+        RECT 58.150 3.670 64.670 4.280 ;
+        RECT 65.510 3.670 72.030 4.280 ;
+        RECT 72.870 3.670 79.390 4.280 ;
+        RECT 80.230 3.670 86.750 4.280 ;
+        RECT 87.590 3.670 94.110 4.280 ;
+        RECT 94.950 3.670 101.470 4.280 ;
+        RECT 102.310 3.670 108.830 4.280 ;
+        RECT 109.670 3.670 116.190 4.280 ;
+        RECT 117.030 3.670 123.550 4.280 ;
+        RECT 124.390 3.670 130.910 4.280 ;
+        RECT 131.750 3.670 138.270 4.280 ;
+        RECT 139.110 3.670 145.630 4.280 ;
+        RECT 146.470 3.670 152.990 4.280 ;
+        RECT 153.830 3.670 160.350 4.280 ;
+        RECT 161.190 3.670 167.710 4.280 ;
+        RECT 168.550 3.670 175.070 4.280 ;
+        RECT 175.910 3.670 182.430 4.280 ;
+        RECT 183.270 3.670 189.790 4.280 ;
+        RECT 190.630 3.670 197.150 4.280 ;
+        RECT 197.990 3.670 204.510 4.280 ;
+        RECT 205.350 3.670 211.870 4.280 ;
+        RECT 212.710 3.670 219.230 4.280 ;
+        RECT 220.070 3.670 226.590 4.280 ;
+        RECT 227.430 3.670 233.950 4.280 ;
+        RECT 234.790 3.670 241.310 4.280 ;
+        RECT 242.150 3.670 248.670 4.280 ;
       LAYER met3 ;
-        RECT 4.000 135.680 253.855 258.565 ;
-        RECT 4.400 134.280 253.855 135.680 ;
-        RECT 4.000 9.695 253.855 134.280 ;
+        RECT 4.000 132.960 241.895 253.125 ;
+        RECT 4.400 131.560 241.895 132.960 ;
+        RECT 4.000 9.015 241.895 131.560 ;
       LAYER met4 ;
-        RECT 46.295 10.375 97.440 221.505 ;
-        RECT 99.840 10.375 174.240 221.505 ;
-        RECT 176.640 10.375 244.425 221.505 ;
+        RECT 62.855 10.240 97.440 212.665 ;
+        RECT 99.840 10.240 174.240 212.665 ;
+        RECT 176.640 10.240 234.305 212.665 ;
+        RECT 62.855 9.015 234.305 10.240 ;
   END
 END egd_top_wrapper
 END LIBRARY
