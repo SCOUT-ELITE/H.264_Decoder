@@ -114,12 +114,12 @@
 + wbs_dat_o[28] wbs_dat_o[29] wbs_dat_o[2] wbs_dat_o[30] wbs_dat_o[31] wbs_dat_o[3]
 + wbs_dat_o[4] wbs_dat_o[5] wbs_dat_o[6] wbs_dat_o[7] wbs_dat_o[8] wbs_dat_o[9] wbs_sel_i[0]
 + wbs_sel_i[1] wbs_sel_i[2] wbs_sel_i[3] wbs_stb_i wbs_we_i
-Xegd_top_wrapper la_data_in[32] la_data_in[42] la_data_in[43] la_data_in[44] la_data_in[45]
-+ la_data_in[46] la_data_in[47] la_data_in[33] la_data_in[34] la_data_in[35] la_data_in[36]
-+ la_data_in[37] la_data_in[38] la_data_in[39] la_data_in[40] la_data_in[41] la_data_in[48]
-+ la_data_in[49] la_data_in[64] la_data_in[65] la_data_out[8] la_data_out[9] la_data_out[10]
-+ la_data_out[11] la_data_out[12] la_data_out[13] la_data_out[14] la_data_out[15]
-+ la_data_out[16] la_data_out[17] la_data_out[18] la_data_out[19] la_data_out[20]
-+ la_data_out[21] la_data_out[22] la_oenb[64] vccd1 vssd1 wb_clk_i egd_top_wrapper
+Xmprj la_data_in[32] la_data_in[42] la_data_in[43] la_data_in[44] la_data_in[45] la_data_in[46]
++ la_data_in[47] la_data_in[33] la_data_in[34] la_data_in[35] la_data_in[36] la_data_in[37]
++ la_data_in[38] la_data_in[39] la_data_in[40] la_data_in[41] la_data_in[48] la_data_in[49]
++ la_data_in[64] la_data_in[65] la_data_out[8] la_data_out[9] la_data_out[10] la_data_out[11]
++ la_data_out[12] la_data_out[13] la_data_out[14] la_data_out[15] la_data_out[16]
++ la_data_out[17] la_data_out[18] la_data_out[19] la_data_out[20] la_data_out[21]
++ la_data_out[22] la_oenb[64] vccd1 vssd1 wb_clk_i egd_top_wrapper
 .ends
 

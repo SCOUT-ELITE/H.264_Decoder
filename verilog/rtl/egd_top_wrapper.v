@@ -32,7 +32,7 @@ module egd_top_wrapper (
 
     // Wishbone Slave ports (WB MI A)
     input wb_clk_i,
-    input wb_rst_i,
+    //input wb_rst_i,
 
     // Logic Analyzer Signals
     input           la_data_in_65,
@@ -40,7 +40,7 @@ module egd_top_wrapper (
     input  [15:0]   la_data_in_47_32,
     input  [1:0]    la_data_in_49_48,
     input           la_oenb_64,
-    input           la_oenb_65,
+    //input           la_oenb_65,
     output [7:0]    la_data_out_15_8,
     output [2:0]    la_data_out_18_16,
     output [3:0]    la_data_out_22_19
@@ -50,7 +50,8 @@ module egd_top_wrapper (
 
     // Assuming LA probes [65:64] are for controlling the count clk & reset  
     assign clk = (~la_oenb_64) ? la_data_in_64: wb_clk_i;
-    assign rst = (~la_oenb_65) ? la_data_in_65: wb_rst_i;
+    //assign rst = (~la_oenb_65) ? la_data_in_65: wb_rst_i;
+    assign rst = la_data_in_65;
 
     egd_top egd_top (
         .clk                        (clk),

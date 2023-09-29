@@ -82,7 +82,7 @@ module user_project_wrapper #(
 /* User project is instantiated  here   */
 /*--------------------------------------*/
 
-egd_top_wrapper egd_top_wrapper (
+egd_top_wrapper mprj (
 `ifdef USE_POWER_PINS
 	.vccd1(vccd1),	// User area 1 1.8V power
 	.vssd1(vssd1),	// User area 1 digital ground
@@ -90,7 +90,7 @@ egd_top_wrapper egd_top_wrapper (
 
     // Wishbone Slave ports
     .wb_clk_i(wb_clk_i),
-    .wb_rst_i(wb_rst_i),
+    //.wb_rst_i(wb_rst_i),
 
     // LA Signals
     // Inputs to egd_top_wrapper
@@ -98,9 +98,9 @@ egd_top_wrapper egd_top_wrapper (
     .la_data_in_64(la_data_in[64]),
     .la_data_in_47_32(la_data_in[47:32]),
     .la_data_in_49_48(la_data_in[49:48]),
-    // Outputs to egd_top_wrapper
     .la_oenb_64(la_oenb[64]),
-    .la_oenb_65(la_oenb[65]),
+    //.la_oenb_65(la_oenb[65]),
+    // Outputs to egd_top_wrapper
     .la_data_out_15_8(la_data_out[15:8]),
     .la_data_out_18_16(la_data_out[18:16]),
     .la_data_out_22_19(la_data_out[22:19])
