@@ -82,21 +82,28 @@ module user_project_wrapper #(
 /* User project is instantiated  here   */
 /*--------------------------------------*/
 
-egd_top egd_top (
+egd_top_wrapper mprj (
 `ifdef USE_POWER_PINS
 	.vccd1(vccd1),	// User area 1 1.8V power
 	.vssd1(vssd1),	// User area 1 digital ground
 `endif
 
-    // Logic Analyzer
+    // Wishbone Slave ports
+    .wb_clk_i(wb_clk_i),
+    //.wb_rst_i(wb_rst_i),
 
-    .clk(la_data_in[8]),
-    .reset_n(la_data_in[9]),
-    .BitStream_buffer_input(la_data_in[25:10]),
-    .exp_golomb_sel(la_data_in[27:26]),
-    .exp_golomb_decoding_output(la_data_out[15:8]),
-    .half_fill_counter(la_data_out[18:16]),
-    .reset_counter(la_data_out[22:19])
+    // LA Signals
+    // Inputs to egd_top_wrapper
+    .la_data_in_65(la_data_in[65]),
+    //.la_data_in_64(la_data_in[64]),
+    .la_data_in_47_32(la_data_in[47:32]),
+    .la_data_in_49_48(la_data_in[49:48]),
+    //.la_oenb_65(la_oenb[65]),
+    //.la_oenb_64(la_oenb[64]),
+    // Outputs to egd_top_wrapper
+    .la_data_out_15_8(la_data_out[15:8]),
+    .la_data_out_18_16(la_data_out[18:16]),
+    .la_data_out_22_19(la_data_out[22:19])
 );
 
 endmodule	// user_project_wrapper
