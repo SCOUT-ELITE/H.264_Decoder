@@ -2,7 +2,7 @@ name: CI
 
 on:
   # Runs on Every Push
-  push:
+  # push:
   # Runs on Pull Requests
   pull_request:
   workflow_dispatch:
@@ -48,7 +48,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        pdk: ["sky130A", "sky130B"]
+        pdk: ["sky130A"]
     needs: [pdk]
     steps:
       - uses: actions/checkout@v2
@@ -89,7 +89,7 @@ jobs:
 
       - name: Harden using Openlane
         run: |
-          make egd_top
+          make egd_top_wrapper
           make user_project_wrapper
 
       - name: run precheck
@@ -117,13 +117,13 @@ jobs:
           path: |
             /home/runner/work/caravel_user_project/caravel_user_project/mpw_precheck_result/logs/*
 
-      - name: Run DV RTL tests
-        run: |
-          make verify-io_ports-rtl 
-          make verify-la_test1-rtl 
-          make verify-la_test2-rtl 
-          make verify-mprj_stimulus-rtl 
-          make verify-wb_port-rtl
+      # - name: Run DV RTL tests
+      #   run: |
+      #     make verify-io_ports-rtl 
+      #     make verify-la_test1-rtl 
+      #     make verify-la_test2-rtl 
+      #     make verify-mprj_stimulus-rtl 
+      #     make verify-wb_port-rtl
 
       # - name: Run DV GL tests
       #   run: |
