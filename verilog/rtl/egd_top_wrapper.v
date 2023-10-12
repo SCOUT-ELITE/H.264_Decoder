@@ -32,10 +32,10 @@ module egd_top_wrapper (
 
     // Wishbone Slave ports (WB MI A)
     input wb_clk_i,
-    //input wb_rst_i,
+    input wb_rst_i,
 
     // Logic Analyzer Signals
-    input           la_data_in_65,
+    //input           la_data_in_65,
     //input           la_data_in_64,
     input  [15:0]   la_data_in_47_32,
     input  [1:0]    la_data_in_49_48,
@@ -53,8 +53,8 @@ module egd_top_wrapper (
     //assign clk = la_data_in_64;
     assign clk = wb_clk_i;
     //assign rst = (~la_oenb_65) ? la_data_in_65: wb_rst_i;
-    assign rst = la_data_in_65;
-    //assign rst = wb_rst_i;
+    //assign rst = la_data_in_65;
+    assign rst = ~wb_rst_i;
 
     egd_top egd_top (
         .clk                        (clk),

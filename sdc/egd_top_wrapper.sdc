@@ -1,6 +1,6 @@
 ###############################################################################
 # Created by write_sdc
-# Fri Sep 29 06:28:02 2023
+# Thu Oct 12 10:24:48 2023
 ###############################################################################
 current_design egd_top_wrapper
 ###############################################################################
@@ -12,6 +12,7 @@ set_clock_uncertainty 0.2500 clk
 set_propagated_clock [get_clocks {clk}]
 set_clock_latency -source -min 4.6500 [get_clocks {clk}]
 set_clock_latency -source -max 5.5700 [get_clocks {clk}]
+set_input_delay 12.5000 -clock [get_clocks {clk}] -add_delay [get_ports {wb_rst_i}]
 ###############################################################################
 # Environment
 ###############################################################################
@@ -37,4 +38,4 @@ set_timing_derate -late 1.0500
 # Design Rules
 ###############################################################################
 set_max_transition 0.7500 [current_design]
-set_max_fanout 10.0000 [current_design]
+set_max_fanout 12.0000 [current_design]

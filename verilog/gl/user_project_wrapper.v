@@ -54,10 +54,10 @@ module user_project_wrapper (user_clock2,
  input [3:0] wbs_sel_i;
 
 
- egd_top_wrapper mprj (.la_data_in_65(la_data_in[65]),
-    .vccd1(vccd1),
+ egd_top_wrapper mprj (.vccd1(vccd1),
     .vssd1(vssd1),
     .wb_clk_i(wb_clk_i),
+    .wb_rst_i(wb_rst_i),
     .la_data_in_47_32({la_data_in[47],
     la_data_in[46],
     la_data_in[45],

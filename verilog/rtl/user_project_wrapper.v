@@ -90,11 +90,11 @@ egd_top_wrapper mprj (
 
     // Wishbone Slave ports
     .wb_clk_i(wb_clk_i),
-    //.wb_rst_i(wb_rst_i),
+    .wb_rst_i(wb_rst_i),
 
     // LA Signals
     // Inputs to egd_top_wrapper
-    .la_data_in_65(la_data_in[65]),
+    //.la_data_in_65(la_data_in[65]),
     //.la_data_in_64(la_data_in[64]),
     .la_data_in_47_32(la_data_in[47:32]),
     .la_data_in_49_48(la_data_in[49:48]),
