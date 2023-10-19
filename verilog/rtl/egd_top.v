@@ -53,7 +53,7 @@ module egd_top (
   parameter te                             = 2'b11;
 
   BitStream_buffer BitStream_buffer (
-    .clk(clk),
+    .clk(~clk),
     .reset_n(reset_n),
     .BitStream_buffer_input(BitStream_buffer_input),
     .exp_golomb_len(exp_golomb_len),
