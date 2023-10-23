@@ -54,7 +54,7 @@ module egd_top_wrapper (
     assign clk = wb_clk_i;
     //assign rst = (~la_oenb_65) ? la_data_in_65: wb_rst_i;
     assign rst = la_data_in_65;
-    //assign rst = wb_rst_i;
+    //assign rst = ~wb_rst_i;
 
     egd_top egd_top (
         .clk                        (clk),
