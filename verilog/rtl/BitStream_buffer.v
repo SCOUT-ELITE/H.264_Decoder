@@ -64,21 +64,21 @@ module BitStream_buffer (
 
 
 	// circular bitstream buffer
-	always @ (posedge clk or negedge reset_n) begin
+	always @ (posedge clk) begin
 		if (reset_n == 1'b0)
 			pc_previous <= 0;
 		else
 			pc_previous <= pc;
 	end
 	
-	always @ (posedge clk or negedge reset_n) begin
+	always @ (posedge clk) begin
 		if (reset_n == 1'b0)
 			reset_counter <= 0;
 		else if (reset_counter < 10)
 			reset_counter <= reset_counter + 1;	
 	end
 	
-	always @ (posedge clk or negedge reset_n) begin
+	always @ (posedge clk) begin
 		if (reset_n == 1'b0)
 			half_fill_counter <= 0;
 		else if (reset_counter == 10) 
@@ -97,7 +97,7 @@ module BitStream_buffer (
 		end
 	end
 				
-	always @ (posedge clk or negedge reset_n) begin
+	always @ (posedge clk) begin
 		if (reset_n == 1'b0)
 			buffer_index <= 0;
 		else if (reset_counter > 1 && reset_counter < 10)
@@ -106,7 +106,7 @@ module BitStream_buffer (
 			buffer_index <= buffer_index + 16;
 	end
 	
-	always @ (posedge clk or negedge reset_n) begin
+	always @ (posedge clk) begin
 		if (reset_n == 1'b0)
 			BitStream_buffer_valid_n <= 1'b1;
 		else if (reset_counter == 10)
@@ -114,7 +114,7 @@ module BitStream_buffer (
 	end
 	
 	integer	i;
-	always @ (posedge clk or negedge reset_n) begin
+	always @ (posedge clk) begin
 		if (reset_n == 1'b0)
 			BS_buffer <= 0;
 		else if ((reset_counter > 1 && reset_counter < 10) || 
@@ -149,7 +149,7 @@ module BitStream_buffer (
 		end
 	end
 				
-	always @ (posedge clk or negedge reset_n) begin
+	always @ (posedge clk) begin
 		if (reset_n == 1'b0)
 			BitStream_buffer_output <= 0;
 		else if (BitStream_buffer_valid_n == 0)
