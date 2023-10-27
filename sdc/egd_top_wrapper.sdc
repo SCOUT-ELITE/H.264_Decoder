@@ -1,6 +1,6 @@
 ###############################################################################
 # Created by write_sdc
-# Mon Oct 23 20:20:11 2023
+# Fri Oct 27 05:14:19 2023
 ###############################################################################
 current_design egd_top_wrapper
 ###############################################################################
@@ -15,21 +15,21 @@ set_clock_latency -source -max 5.5700 [get_clocks {clk}]
 ###############################################################################
 # Environment
 ###############################################################################
-set_load -pin_load 0.1900 [get_ports {la_data_out_15_8[7]}]
-set_load -pin_load 0.1900 [get_ports {la_data_out_15_8[6]}]
-set_load -pin_load 0.1900 [get_ports {la_data_out_15_8[5]}]
-set_load -pin_load 0.1900 [get_ports {la_data_out_15_8[4]}]
-set_load -pin_load 0.1900 [get_ports {la_data_out_15_8[3]}]
-set_load -pin_load 0.1900 [get_ports {la_data_out_15_8[2]}]
-set_load -pin_load 0.1900 [get_ports {la_data_out_15_8[1]}]
-set_load -pin_load 0.1900 [get_ports {la_data_out_15_8[0]}]
-set_load -pin_load 0.1900 [get_ports {la_data_out_18_16[2]}]
-set_load -pin_load 0.1900 [get_ports {la_data_out_18_16[1]}]
-set_load -pin_load 0.1900 [get_ports {la_data_out_18_16[0]}]
-set_load -pin_load 0.1900 [get_ports {la_data_out_22_19[3]}]
-set_load -pin_load 0.1900 [get_ports {la_data_out_22_19[2]}]
-set_load -pin_load 0.1900 [get_ports {la_data_out_22_19[1]}]
-set_load -pin_load 0.1900 [get_ports {la_data_out_22_19[0]}]
+set_load -pin_load 0.1900 [get_ports {la_data_out_23_16[7]}]
+set_load -pin_load 0.1900 [get_ports {la_data_out_23_16[6]}]
+set_load -pin_load 0.1900 [get_ports {la_data_out_23_16[5]}]
+set_load -pin_load 0.1900 [get_ports {la_data_out_23_16[4]}]
+set_load -pin_load 0.1900 [get_ports {la_data_out_23_16[3]}]
+set_load -pin_load 0.1900 [get_ports {la_data_out_23_16[2]}]
+set_load -pin_load 0.1900 [get_ports {la_data_out_23_16[1]}]
+set_load -pin_load 0.1900 [get_ports {la_data_out_23_16[0]}]
+set_load -pin_load 0.1900 [get_ports {la_data_out_26_24[2]}]
+set_load -pin_load 0.1900 [get_ports {la_data_out_26_24[1]}]
+set_load -pin_load 0.1900 [get_ports {la_data_out_26_24[0]}]
+set_load -pin_load 0.1900 [get_ports {la_data_out_30_27[3]}]
+set_load -pin_load 0.1900 [get_ports {la_data_out_30_27[2]}]
+set_load -pin_load 0.1900 [get_ports {la_data_out_30_27[1]}]
+set_load -pin_load 0.1900 [get_ports {la_data_out_30_27[0]}]
 set_input_transition 0.6100 [get_ports {wb_clk_i}]
 set_timing_derate -early 0.9500
 set_timing_derate -late 1.0500

@@ -7,7 +7,7 @@ MACRO egd_top_wrapper
   FOREIGN egd_top_wrapper ;
   ORIGIN 0.000 0.000 ;
   SIZE 267.885 BY 278.605 ;
-  PIN la_data_in_47_32[0]
+  PIN la_data_in_58_43[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.426000 ;
@@ -15,8 +15,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 121.990 0.000 122.270 4.000 ;
     END
-  END la_data_in_47_32[0]
-  PIN la_data_in_47_32[10]
+  END la_data_in_58_43[0]
+  PIN la_data_in_58_43[10]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.426000 ;
@@ -24,8 +24,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 200.190 0.000 200.470 4.000 ;
     END
-  END la_data_in_47_32[10]
-  PIN la_data_in_47_32[11]
+  END la_data_in_58_43[10]
+  PIN la_data_in_58_43[11]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.426000 ;
@@ -33,8 +33,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 208.010 0.000 208.290 4.000 ;
     END
-  END la_data_in_47_32[11]
-  PIN la_data_in_47_32[12]
+  END la_data_in_58_43[11]
+  PIN la_data_in_58_43[12]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.426000 ;
@@ -42,8 +42,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 215.830 0.000 216.110 4.000 ;
     END
-  END la_data_in_47_32[12]
-  PIN la_data_in_47_32[13]
+  END la_data_in_58_43[12]
+  PIN la_data_in_58_43[13]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.426000 ;
@@ -51,8 +51,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 223.650 0.000 223.930 4.000 ;
     END
-  END la_data_in_47_32[13]
-  PIN la_data_in_47_32[14]
+  END la_data_in_58_43[13]
+  PIN la_data_in_58_43[14]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.426000 ;
@@ -60,8 +60,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 231.470 0.000 231.750 4.000 ;
     END
-  END la_data_in_47_32[14]
-  PIN la_data_in_47_32[15]
+  END la_data_in_58_43[14]
+  PIN la_data_in_58_43[15]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.426000 ;
@@ -69,8 +69,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 239.290 0.000 239.570 4.000 ;
     END
-  END la_data_in_47_32[15]
-  PIN la_data_in_47_32[1]
+  END la_data_in_58_43[15]
+  PIN la_data_in_58_43[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.426000 ;
@@ -78,8 +78,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 129.810 0.000 130.090 4.000 ;
     END
-  END la_data_in_47_32[1]
-  PIN la_data_in_47_32[2]
+  END la_data_in_58_43[1]
+  PIN la_data_in_58_43[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.426000 ;
@@ -87,8 +87,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 137.630 0.000 137.910 4.000 ;
     END
-  END la_data_in_47_32[2]
-  PIN la_data_in_47_32[3]
+  END la_data_in_58_43[2]
+  PIN la_data_in_58_43[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.426000 ;
@@ -96,8 +96,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 145.450 0.000 145.730 4.000 ;
     END
-  END la_data_in_47_32[3]
-  PIN la_data_in_47_32[4]
+  END la_data_in_58_43[3]
+  PIN la_data_in_58_43[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.426000 ;
@@ -105,8 +105,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 153.270 0.000 153.550 4.000 ;
     END
-  END la_data_in_47_32[4]
-  PIN la_data_in_47_32[5]
+  END la_data_in_58_43[4]
+  PIN la_data_in_58_43[5]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.426000 ;
@@ -114,8 +114,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 161.090 0.000 161.370 4.000 ;
     END
-  END la_data_in_47_32[5]
-  PIN la_data_in_47_32[6]
+  END la_data_in_58_43[5]
+  PIN la_data_in_58_43[6]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.426000 ;
@@ -123,8 +123,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 168.910 0.000 169.190 4.000 ;
     END
-  END la_data_in_47_32[6]
-  PIN la_data_in_47_32[7]
+  END la_data_in_58_43[6]
+  PIN la_data_in_58_43[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.426000 ;
@@ -132,8 +132,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 176.730 0.000 177.010 4.000 ;
     END
-  END la_data_in_47_32[7]
-  PIN la_data_in_47_32[8]
+  END la_data_in_58_43[7]
+  PIN la_data_in_58_43[8]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.426000 ;
@@ -141,8 +141,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 184.550 0.000 184.830 4.000 ;
     END
-  END la_data_in_47_32[8]
-  PIN la_data_in_47_32[9]
+  END la_data_in_58_43[8]
+  PIN la_data_in_58_43[9]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.426000 ;
@@ -150,8 +150,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 192.370 0.000 192.650 4.000 ;
     END
-  END la_data_in_47_32[9]
-  PIN la_data_in_49_48[0]
+  END la_data_in_58_43[9]
+  PIN la_data_in_60_59[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.159000 ;
@@ -159,8 +159,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 247.110 0.000 247.390 4.000 ;
     END
-  END la_data_in_49_48[0]
-  PIN la_data_in_49_48[1]
+  END la_data_in_60_59[0]
+  PIN la_data_in_60_59[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
     ANTENNAGATEAREA 0.213000 ;
@@ -168,7 +168,7 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 254.930 0.000 255.210 4.000 ;
     END
-  END la_data_in_49_48[1]
+  END la_data_in_60_59[1]
   PIN la_data_in_65
     DIRECTION INPUT ;
     USE SIGNAL ;
@@ -178,7 +178,7 @@ MACRO egd_top_wrapper
         RECT 262.750 0.000 263.030 4.000 ;
     END
   END la_data_in_65
-  PIN la_data_out_15_8[0]
+  PIN la_data_out_23_16[0]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     ANTENNADIFFAREA 2.673000 ;
@@ -186,8 +186,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 4.690 0.000 4.970 4.000 ;
     END
-  END la_data_out_15_8[0]
-  PIN la_data_out_15_8[1]
+  END la_data_out_23_16[0]
+  PIN la_data_out_23_16[1]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     ANTENNADIFFAREA 2.673000 ;
@@ -195,8 +195,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 12.510 0.000 12.790 4.000 ;
     END
-  END la_data_out_15_8[1]
-  PIN la_data_out_15_8[2]
+  END la_data_out_23_16[1]
+  PIN la_data_out_23_16[2]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     ANTENNADIFFAREA 2.673000 ;
@@ -204,8 +204,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 20.330 0.000 20.610 4.000 ;
     END
-  END la_data_out_15_8[2]
-  PIN la_data_out_15_8[3]
+  END la_data_out_23_16[2]
+  PIN la_data_out_23_16[3]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     ANTENNADIFFAREA 2.673000 ;
@@ -213,8 +213,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 28.150 0.000 28.430 4.000 ;
     END
-  END la_data_out_15_8[3]
-  PIN la_data_out_15_8[4]
+  END la_data_out_23_16[3]
+  PIN la_data_out_23_16[4]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     ANTENNADIFFAREA 2.673000 ;
@@ -222,8 +222,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 35.970 0.000 36.250 4.000 ;
     END
-  END la_data_out_15_8[4]
-  PIN la_data_out_15_8[5]
+  END la_data_out_23_16[4]
+  PIN la_data_out_23_16[5]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     ANTENNADIFFAREA 2.673000 ;
@@ -231,8 +231,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 43.790 0.000 44.070 4.000 ;
     END
-  END la_data_out_15_8[5]
-  PIN la_data_out_15_8[6]
+  END la_data_out_23_16[5]
+  PIN la_data_out_23_16[6]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     ANTENNADIFFAREA 2.673000 ;
@@ -240,8 +240,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 51.610 0.000 51.890 4.000 ;
     END
-  END la_data_out_15_8[6]
-  PIN la_data_out_15_8[7]
+  END la_data_out_23_16[6]
+  PIN la_data_out_23_16[7]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     ANTENNADIFFAREA 2.673000 ;
@@ -249,8 +249,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 59.430 0.000 59.710 4.000 ;
     END
-  END la_data_out_15_8[7]
-  PIN la_data_out_18_16[0]
+  END la_data_out_23_16[7]
+  PIN la_data_out_26_24[0]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     ANTENNADIFFAREA 2.673000 ;
@@ -258,8 +258,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 67.250 0.000 67.530 4.000 ;
     END
-  END la_data_out_18_16[0]
-  PIN la_data_out_18_16[1]
+  END la_data_out_26_24[0]
+  PIN la_data_out_26_24[1]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     ANTENNADIFFAREA 2.673000 ;
@@ -267,8 +267,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 75.070 0.000 75.350 4.000 ;
     END
-  END la_data_out_18_16[1]
-  PIN la_data_out_18_16[2]
+  END la_data_out_26_24[1]
+  PIN la_data_out_26_24[2]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     ANTENNADIFFAREA 2.673000 ;
@@ -276,8 +276,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 82.890 0.000 83.170 4.000 ;
     END
-  END la_data_out_18_16[2]
-  PIN la_data_out_22_19[0]
+  END la_data_out_26_24[2]
+  PIN la_data_out_30_27[0]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     ANTENNADIFFAREA 2.673000 ;
@@ -285,8 +285,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 90.710 0.000 90.990 4.000 ;
     END
-  END la_data_out_22_19[0]
-  PIN la_data_out_22_19[1]
+  END la_data_out_30_27[0]
+  PIN la_data_out_30_27[1]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     ANTENNADIFFAREA 2.673000 ;
@@ -294,8 +294,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 98.530 0.000 98.810 4.000 ;
     END
-  END la_data_out_22_19[1]
-  PIN la_data_out_22_19[2]
+  END la_data_out_30_27[1]
+  PIN la_data_out_30_27[2]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     ANTENNADIFFAREA 2.673000 ;
@@ -303,8 +303,8 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 106.350 0.000 106.630 4.000 ;
     END
-  END la_data_out_22_19[2]
-  PIN la_data_out_22_19[3]
+  END la_data_out_30_27[2]
+  PIN la_data_out_30_27[3]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     ANTENNADIFFAREA 2.673000 ;
@@ -312,7 +312,7 @@ MACRO egd_top_wrapper
       LAYER met2 ;
         RECT 114.170 0.000 114.450 4.000 ;
     END
-  END la_data_out_22_19[3]
+  END la_data_out_30_27[3]
   PIN vccd1
     DIRECTION INOUT ;
     USE POWER ;

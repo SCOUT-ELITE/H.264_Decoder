@@ -29,35 +29,35 @@ library (egd_top_wrapper) {
     variable_1 : total_output_net_capacitance;
     index_1 ("0.00050,  0.00232,  0.01077,  0.05000,  0.23208,  1.07722,  5.00000");
   }
-  type ("la_data_in_47_32") {
+  type ("la_data_in_58_43") {
     base_type : array;
     data_type : bit;
     bit_width : 16;
     bit_from : 15;
     bit_to : 0;
   }
-  type ("la_data_in_49_48") {
+  type ("la_data_in_60_59") {
     base_type : array;
     data_type : bit;
     bit_width : 2;
     bit_from : 1;
     bit_to : 0;
   }
-  type ("la_data_out_15_8") {
+  type ("la_data_out_23_16") {
     base_type : array;
     data_type : bit;
     bit_width : 8;
     bit_from : 7;
     bit_to : 0;
   }
-  type ("la_data_out_18_16") {
+  type ("la_data_out_26_24") {
     base_type : array;
     data_type : bit;
     bit_width : 3;
     bit_from : 2;
     bit_to : 0;
   }
-  type ("la_data_out_22_19") {
+  type ("la_data_out_30_27") {
     base_type : array;
     data_type : bit;
     bit_width : 4;
@@ -94,11 +94,11 @@ library (egd_top_wrapper) {
       direction : input;
       capacitance : 0.0077;
     }
-    bus("la_data_in_47_32") {
-      bus_type : la_data_in_47_32;
+    bus("la_data_in_58_43") {
+      bus_type : la_data_in_58_43;
       direction : input;
       capacitance : 0.0000;
-    pin("la_data_in_47_32[15]") {
+    pin("la_data_in_58_43[15]") {
       direction : input;
       capacitance : 0.0050;
       timing() {
@@ -122,7 +122,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_in_47_32[14]") {
+    pin("la_data_in_58_43[14]") {
       direction : input;
       capacitance : 0.0050;
       timing() {
@@ -146,7 +146,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_in_47_32[13]") {
+    pin("la_data_in_58_43[13]") {
       direction : input;
       capacitance : 0.0051;
       timing() {
@@ -170,7 +170,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_in_47_32[12]") {
+    pin("la_data_in_58_43[12]") {
       direction : input;
       capacitance : 0.0052;
       timing() {
@@ -194,7 +194,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_in_47_32[11]") {
+    pin("la_data_in_58_43[11]") {
       direction : input;
       capacitance : 0.0055;
       timing() {
@@ -218,7 +218,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_in_47_32[10]") {
+    pin("la_data_in_58_43[10]") {
       direction : input;
       capacitance : 0.0056;
       timing() {
@@ -242,7 +242,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_in_47_32[9]") {
+    pin("la_data_in_58_43[9]") {
       direction : input;
       capacitance : 0.0059;
       timing() {
@@ -266,7 +266,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_in_47_32[8]") {
+    pin("la_data_in_58_43[8]") {
       direction : input;
       capacitance : 0.0062;
       timing() {
@@ -290,7 +290,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_in_47_32[7]") {
+    pin("la_data_in_58_43[7]") {
       direction : input;
       capacitance : 0.0053;
       timing() {
@@ -314,7 +314,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_in_47_32[6]") {
+    pin("la_data_in_58_43[6]") {
       direction : input;
       capacitance : 0.0057;
       timing() {
@@ -338,7 +338,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_in_47_32[5]") {
+    pin("la_data_in_58_43[5]") {
       direction : input;
       capacitance : 0.0054;
       timing() {
@@ -362,7 +362,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_in_47_32[4]") {
+    pin("la_data_in_58_43[4]") {
       direction : input;
       capacitance : 0.0050;
       timing() {
@@ -386,7 +386,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_in_47_32[3]") {
+    pin("la_data_in_58_43[3]") {
       direction : input;
       capacitance : 0.0052;
       timing() {
@@ -410,7 +410,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_in_47_32[2]") {
+    pin("la_data_in_58_43[2]") {
       direction : input;
       capacitance : 0.0050;
       timing() {
@@ -434,7 +434,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_in_47_32[1]") {
+    pin("la_data_in_58_43[1]") {
       direction : input;
       capacitance : 0.0050;
       timing() {
@@ -458,7 +458,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_in_47_32[0]") {
+    pin("la_data_in_58_43[0]") {
       direction : input;
       capacitance : 0.0050;
       timing() {
@@ -483,11 +483,11 @@ library (egd_top_wrapper) {
       }
     }
     }
-    bus("la_data_in_49_48") {
-      bus_type : la_data_in_49_48;
+    bus("la_data_in_60_59") {
+      bus_type : la_data_in_60_59;
       direction : input;
       capacitance : 0.0000;
-    pin("la_data_in_49_48[1]") {
+    pin("la_data_in_60_59[1]") {
       direction : input;
       capacitance : 0.0031;
       timing() {
@@ -511,7 +511,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_in_49_48[0]") {
+    pin("la_data_in_60_59[0]") {
       direction : input;
       capacitance : 0.0027;
       timing() {
@@ -536,15 +536,15 @@ library (egd_top_wrapper) {
       }
     }
     }
-    bus("la_data_out_15_8") {
-      bus_type : la_data_out_15_8;
+    bus("la_data_out_23_16") {
+      bus_type : la_data_out_23_16;
       direction : output;
       capacitance : 0.0000;
-    pin("la_data_out_15_8[7]") {
+    pin("la_data_out_23_16[7]") {
       direction : output;
       capacitance : 0.0016;
       timing() {
-        related_pin : "la_data_in_49_48[1]";
+        related_pin : "la_data_in_60_59[1]";
         timing_type : combinational;
 	cell_rise(template_1) {
           values("3.08013,3.08247,3.09186,3.12626,3.26664,3.90920,6.88523");
@@ -560,7 +560,7 @@ library (egd_top_wrapper) {
 	}
       }
       timing() {
-        related_pin : "la_data_in_49_48[0]";
+        related_pin : "la_data_in_60_59[0]";
         timing_type : combinational;
 	cell_rise(template_1) {
           values("3.12114,3.12348,3.13287,3.16727,3.30765,3.95022,6.92624");
@@ -576,11 +576,11 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_out_15_8[6]") {
+    pin("la_data_out_23_16[6]") {
       direction : output;
       capacitance : 0.0008;
       timing() {
-        related_pin : "la_data_in_49_48[1]";
+        related_pin : "la_data_in_60_59[1]";
         timing_type : combinational;
 	cell_rise(template_1) {
           values("2.98226,2.98462,2.99406,3.02853,3.16895,3.81135,6.78534");
@@ -596,7 +596,7 @@ library (egd_top_wrapper) {
 	}
       }
       timing() {
-        related_pin : "la_data_in_49_48[0]";
+        related_pin : "la_data_in_60_59[0]";
         timing_type : combinational;
 	cell_rise(template_1) {
           values("3.02327,3.02563,3.03507,3.06954,3.20996,3.85237,6.82635");
@@ -612,11 +612,11 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_out_15_8[5]") {
+    pin("la_data_out_23_16[5]") {
       direction : output;
       capacitance : 0.0017;
       timing() {
-        related_pin : "la_data_in_49_48[1]";
+        related_pin : "la_data_in_60_59[1]";
         timing_type : combinational;
 	cell_rise(template_1) {
           values("1.98033,1.98268,1.99212,2.02659,2.16700,2.80942,5.78359");
@@ -632,7 +632,7 @@ library (egd_top_wrapper) {
 	}
       }
       timing() {
-        related_pin : "la_data_in_49_48[0]";
+        related_pin : "la_data_in_60_59[0]";
         timing_type : combinational;
 	cell_rise(template_1) {
           values("2.02134,2.02369,2.03313,2.06760,2.20801,2.85043,5.82460");
@@ -648,11 +648,11 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_out_15_8[4]") {
+    pin("la_data_out_23_16[4]") {
       direction : output;
       capacitance : 0.0013;
       timing() {
-        related_pin : "la_data_in_49_48[1]";
+        related_pin : "la_data_in_60_59[1]";
         timing_type : combinational;
 	cell_rise(template_1) {
           values("1.98780,1.99017,1.99965,2.03419,2.17464,2.81691,5.78917");
@@ -668,7 +668,7 @@ library (egd_top_wrapper) {
 	}
       }
       timing() {
-        related_pin : "la_data_in_49_48[0]";
+        related_pin : "la_data_in_60_59[0]";
         timing_type : combinational;
 	cell_rise(template_1) {
           values("2.02881,2.03118,2.04066,2.07520,2.21566,2.85792,5.83018");
@@ -684,11 +684,11 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_out_15_8[3]") {
+    pin("la_data_out_23_16[3]") {
       direction : output;
       capacitance : 0.0008;
       timing() {
-        related_pin : "la_data_in_49_48[1]";
+        related_pin : "la_data_in_60_59[1]";
         timing_type : combinational;
 	cell_rise(template_1) {
           values("1.98077,1.98321,1.99291,2.02773,2.16836,2.80995,5.77401");
@@ -704,7 +704,7 @@ library (egd_top_wrapper) {
 	}
       }
       timing() {
-        related_pin : "la_data_in_49_48[0]";
+        related_pin : "la_data_in_60_59[0]";
         timing_type : combinational;
 	cell_rise(template_1) {
           values("2.02178,2.02422,2.03392,2.06874,2.20937,2.85096,5.81502");
@@ -720,11 +720,11 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_out_15_8[2]") {
+    pin("la_data_out_23_16[2]") {
       direction : output;
       capacitance : 0.0017;
       timing() {
-        related_pin : "la_data_in_49_48[1]";
+        related_pin : "la_data_in_60_59[1]";
         timing_type : combinational;
 	cell_rise(template_1) {
           values("2.13249,2.13485,2.14429,2.17876,2.31918,2.96158,5.93562");
@@ -740,7 +740,7 @@ library (egd_top_wrapper) {
 	}
       }
       timing() {
-        related_pin : "la_data_in_49_48[0]";
+        related_pin : "la_data_in_60_59[0]";
         timing_type : combinational;
 	cell_rise(template_1) {
           values("2.17350,2.17586,2.18530,2.21977,2.36019,3.00260,5.97663");
@@ -756,11 +756,11 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_out_15_8[1]") {
+    pin("la_data_out_23_16[1]") {
       direction : output;
       capacitance : 0.0010;
       timing() {
-        related_pin : "la_data_in_49_48[1]";
+        related_pin : "la_data_in_60_59[1]";
         timing_type : combinational;
 	cell_rise(template_1) {
           values("1.98873,1.99124,2.00115,2.03624,2.17703,2.81803,5.77519");
@@ -776,7 +776,7 @@ library (egd_top_wrapper) {
 	}
       }
       timing() {
-        related_pin : "la_data_in_49_48[0]";
+        related_pin : "la_data_in_60_59[0]";
         timing_type : combinational;
 	cell_rise(template_1) {
           values("2.02974,2.03225,2.04216,2.07725,2.21804,2.85904,5.81620");
@@ -792,11 +792,11 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_out_15_8[0]") {
+    pin("la_data_out_23_16[0]") {
       direction : output;
       capacitance : 0.0015;
       timing() {
-        related_pin : "la_data_in_49_48[1]";
+        related_pin : "la_data_in_60_59[1]";
         timing_type : combinational;
 	cell_rise(template_1) {
           values("1.21458,1.21697,1.22649,1.26108,1.40157,2.04371,5.01441");
@@ -812,7 +812,7 @@ library (egd_top_wrapper) {
 	}
       }
       timing() {
-        related_pin : "la_data_in_49_48[0]";
+        related_pin : "la_data_in_60_59[0]";
         timing_type : combinational;
 	cell_rise(template_1) {
           values("1.28748,1.28987,1.29939,1.33398,1.47447,2.11661,5.08731");
@@ -829,11 +829,11 @@ library (egd_top_wrapper) {
       }
     }
     }
-    bus("la_data_out_18_16") {
-      bus_type : la_data_out_18_16;
+    bus("la_data_out_26_24") {
+      bus_type : la_data_out_26_24;
       direction : output;
       capacitance : 0.0000;
-    pin("la_data_out_18_16[2]") {
+    pin("la_data_out_26_24[2]") {
       direction : output;
       capacitance : 0.0016;
       timing() {
@@ -853,7 +853,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_out_18_16[1]") {
+    pin("la_data_out_26_24[1]") {
       direction : output;
       capacitance : 0.0012;
       timing() {
@@ -873,7 +873,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_out_18_16[0]") {
+    pin("la_data_out_26_24[0]") {
       direction : output;
       capacitance : 0.0008;
       timing() {
@@ -894,11 +894,11 @@ library (egd_top_wrapper) {
       }
     }
     }
-    bus("la_data_out_22_19") {
-      bus_type : la_data_out_22_19;
+    bus("la_data_out_30_27") {
+      bus_type : la_data_out_30_27;
       direction : output;
       capacitance : 0.0000;
-    pin("la_data_out_22_19[3]") {
+    pin("la_data_out_30_27[3]") {
       direction : output;
       capacitance : 0.0012;
       timing() {
@@ -918,7 +918,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_out_22_19[2]") {
+    pin("la_data_out_30_27[2]") {
       direction : output;
       capacitance : 0.0008;
       timing() {
@@ -938,7 +938,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_out_22_19[1]") {
+    pin("la_data_out_30_27[1]") {
       direction : output;
       capacitance : 0.0016;
       timing() {
@@ -958,7 +958,7 @@ library (egd_top_wrapper) {
 	}
       }
     }
-    pin("la_data_out_22_19[0]") {
+    pin("la_data_out_30_27[0]") {
       direction : output;
       capacitance : 0.0008;
       timing() {

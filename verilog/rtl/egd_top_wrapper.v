@@ -32,39 +32,31 @@ module egd_top_wrapper (
 
     // Wishbone Slave ports (WB MI A)
     input wb_clk_i,
-    //input wb_rst_i,
 
     // Logic Analyzer Signals
     input           la_data_in_65,
-    //input           la_data_in_64,
-    input  [15:0]   la_data_in_47_32,
-    input  [1:0]    la_data_in_49_48,
-    //input           la_oenb_64,
-    //input           la_oenb_65,
-    output [7:0]    la_data_out_15_8,
-    output [2:0]    la_data_out_18_16,
-    output [3:0]    la_data_out_22_19
+    input  [15:0]   la_data_in_58_43,
+    input  [1:0]    la_data_in_60_59,
+    output [7:0]    la_data_out_23_16,
+    output [2:0]    la_data_out_26_24,
+    output [3:0]    la_data_out_30_27
 );
     wire clk;
     wire rst;
 
     // Assuming LA probes [65:64] are for controlling the count clk & reset  
-    //assign clk = (~la_oenb_64) ? la_data_in_64: wb_clk_i;
-    //assign clk = la_data_in_64;
     assign clk = wb_clk_i;
-    //assign rst = (~la_oenb_65) ? la_data_in_65: wb_rst_i;
     assign rst = la_data_in_65;
-    //assign rst = ~wb_rst_i;
 
     egd_top egd_top (
         .clk                        (clk),
         .reset_n                    (rst),
 
-        .BitStream_buffer_input     (la_data_in_47_32),
-        .exp_golomb_sel             (la_data_in_49_48),
+        .BitStream_buffer_input     (la_data_in_58_43),
+        .exp_golomb_sel             (la_data_in_60_59),
 
-        .exp_golomb_decoding_output (la_data_out_15_8),
-        .half_fill_counter          (la_data_out_18_16),
-        .reset_counter              (la_data_out_22_19)
+        .exp_golomb_decoding_output (la_data_out_23_16),
+        .half_fill_counter          (la_data_out_26_24),
+        .reset_counter              (la_data_out_30_27)
     );
 endmodule

@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1698093280
+timestamp 1698386027
 << obsli1 >>
 rect 1104 2159 52440 53329
 << obsm1 >>
@@ -92,73 +92,73 @@ rect 14411 3299 19488 51509
 rect 19968 3299 34848 51509
 rect 35328 3299 49621 51509
 << labels >>
-rlabel metal2 s 24398 0 24454 800 6 la_data_in_47_32[0]
+rlabel metal2 s 24398 0 24454 800 6 la_data_in_58_43[0]
 port 1 nsew signal input
-rlabel metal2 s 40038 0 40094 800 6 la_data_in_47_32[10]
+rlabel metal2 s 40038 0 40094 800 6 la_data_in_58_43[10]
 port 2 nsew signal input
-rlabel metal2 s 41602 0 41658 800 6 la_data_in_47_32[11]
+rlabel metal2 s 41602 0 41658 800 6 la_data_in_58_43[11]
 port 3 nsew signal input
-rlabel metal2 s 43166 0 43222 800 6 la_data_in_47_32[12]
+rlabel metal2 s 43166 0 43222 800 6 la_data_in_58_43[12]
 port 4 nsew signal input
-rlabel metal2 s 44730 0 44786 800 6 la_data_in_47_32[13]
+rlabel metal2 s 44730 0 44786 800 6 la_data_in_58_43[13]
 port 5 nsew signal input
-rlabel metal2 s 46294 0 46350 800 6 la_data_in_47_32[14]
+rlabel metal2 s 46294 0 46350 800 6 la_data_in_58_43[14]
 port 6 nsew signal input
-rlabel metal2 s 47858 0 47914 800 6 la_data_in_47_32[15]
+rlabel metal2 s 47858 0 47914 800 6 la_data_in_58_43[15]
 port 7 nsew signal input
-rlabel metal2 s 25962 0 26018 800 6 la_data_in_47_32[1]
+rlabel metal2 s 25962 0 26018 800 6 la_data_in_58_43[1]
 port 8 nsew signal input
-rlabel metal2 s 27526 0 27582 800 6 la_data_in_47_32[2]
+rlabel metal2 s 27526 0 27582 800 6 la_data_in_58_43[2]
 port 9 nsew signal input
-rlabel metal2 s 29090 0 29146 800 6 la_data_in_47_32[3]
+rlabel metal2 s 29090 0 29146 800 6 la_data_in_58_43[3]
 port 10 nsew signal input
-rlabel metal2 s 30654 0 30710 800 6 la_data_in_47_32[4]
+rlabel metal2 s 30654 0 30710 800 6 la_data_in_58_43[4]
 port 11 nsew signal input
-rlabel metal2 s 32218 0 32274 800 6 la_data_in_47_32[5]
+rlabel metal2 s 32218 0 32274 800 6 la_data_in_58_43[5]
 port 12 nsew signal input
-rlabel metal2 s 33782 0 33838 800 6 la_data_in_47_32[6]
+rlabel metal2 s 33782 0 33838 800 6 la_data_in_58_43[6]
 port 13 nsew signal input
-rlabel metal2 s 35346 0 35402 800 6 la_data_in_47_32[7]
+rlabel metal2 s 35346 0 35402 800 6 la_data_in_58_43[7]
 port 14 nsew signal input
-rlabel metal2 s 36910 0 36966 800 6 la_data_in_47_32[8]
+rlabel metal2 s 36910 0 36966 800 6 la_data_in_58_43[8]
 port 15 nsew signal input
-rlabel metal2 s 38474 0 38530 800 6 la_data_in_47_32[9]
+rlabel metal2 s 38474 0 38530 800 6 la_data_in_58_43[9]
 port 16 nsew signal input
-rlabel metal2 s 49422 0 49478 800 6 la_data_in_49_48[0]
+rlabel metal2 s 49422 0 49478 800 6 la_data_in_60_59[0]
 port 17 nsew signal input
-rlabel metal2 s 50986 0 51042 800 6 la_data_in_49_48[1]
+rlabel metal2 s 50986 0 51042 800 6 la_data_in_60_59[1]
 port 18 nsew signal input
 rlabel metal2 s 52550 0 52606 800 6 la_data_in_65
 port 19 nsew signal input
-rlabel metal2 s 938 0 994 800 6 la_data_out_15_8[0]
+rlabel metal2 s 938 0 994 800 6 la_data_out_23_16[0]
 port 20 nsew signal output
-rlabel metal2 s 2502 0 2558 800 6 la_data_out_15_8[1]
+rlabel metal2 s 2502 0 2558 800 6 la_data_out_23_16[1]
 port 21 nsew signal output
-rlabel metal2 s 4066 0 4122 800 6 la_data_out_15_8[2]
+rlabel metal2 s 4066 0 4122 800 6 la_data_out_23_16[2]
 port 22 nsew signal output
-rlabel metal2 s 5630 0 5686 800 6 la_data_out_15_8[3]
+rlabel metal2 s 5630 0 5686 800 6 la_data_out_23_16[3]
 port 23 nsew signal output
-rlabel metal2 s 7194 0 7250 800 6 la_data_out_15_8[4]
+rlabel metal2 s 7194 0 7250 800 6 la_data_out_23_16[4]
 port 24 nsew signal output
-rlabel metal2 s 8758 0 8814 800 6 la_data_out_15_8[5]
+rlabel metal2 s 8758 0 8814 800 6 la_data_out_23_16[5]
 port 25 nsew signal output
-rlabel metal2 s 10322 0 10378 800 6 la_data_out_15_8[6]
+rlabel metal2 s 10322 0 10378 800 6 la_data_out_23_16[6]
 port 26 nsew signal output
-rlabel metal2 s 11886 0 11942 800 6 la_data_out_15_8[7]
+rlabel metal2 s 11886 0 11942 800 6 la_data_out_23_16[7]
 port 27 nsew signal output
-rlabel metal2 s 13450 0 13506 800 6 la_data_out_18_16[0]
+rlabel metal2 s 13450 0 13506 800 6 la_data_out_26_24[0]
 port 28 nsew signal output
-rlabel metal2 s 15014 0 15070 800 6 la_data_out_18_16[1]
+rlabel metal2 s 15014 0 15070 800 6 la_data_out_26_24[1]
 port 29 nsew signal output
-rlabel metal2 s 16578 0 16634 800 6 la_data_out_18_16[2]
+rlabel metal2 s 16578 0 16634 800 6 la_data_out_26_24[2]
 port 30 nsew signal output
-rlabel metal2 s 18142 0 18198 800 6 la_data_out_22_19[0]
+rlabel metal2 s 18142 0 18198 800 6 la_data_out_30_27[0]
 port 31 nsew signal output
-rlabel metal2 s 19706 0 19762 800 6 la_data_out_22_19[1]
+rlabel metal2 s 19706 0 19762 800 6 la_data_out_30_27[1]
 port 32 nsew signal output
-rlabel metal2 s 21270 0 21326 800 6 la_data_out_22_19[2]
+rlabel metal2 s 21270 0 21326 800 6 la_data_out_30_27[2]
 port 33 nsew signal output
-rlabel metal2 s 22834 0 22890 800 6 la_data_out_22_19[3]
+rlabel metal2 s 22834 0 22890 800 6 la_data_out_30_27[3]
 port 34 nsew signal output
 rlabel metal4 s 4208 2128 4528 53360 6 vccd1
 port 35 nsew power bidirectional
@@ -175,7 +175,7 @@ string FIXED_BBOX 0 0 53577 55721
 string LEFclass BLOCK
 string LEFview TRUE
 string GDS_END 9227492
-string GDS_FILE /home/uniccass/H.264_Decoder/openlane/egd_top_wrapper/runs/23_10_23_13_17/results/signoff/egd_top_wrapper.magic.gds
+string GDS_FILE /home/uniccass/H.264_Decoder/openlane/egd_top_wrapper/runs/23_10_26_22_08/results/signoff/egd_top_wrapper.magic.gds
 string GDS_START 546156
 << end >>
 

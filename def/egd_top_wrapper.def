@@ -9861,75 +9861,75 @@ COMPONENTS 9741 ;
     - output34 sky130_fd_sc_hd__buf_12 + SOURCE TIMING + PLACED ( 114080 10880 ) N ;
 END COMPONENTS
 PINS 37 ;
-    - la_data_in_47_32[0] + NET la_data_in_47_32[0] + DIRECTION INPUT + USE SIGNAL
+    - la_data_in_58_43[0] + NET la_data_in_58_43[0] + DIRECTION INPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 122130 2000 ) N ;
-    - la_data_in_47_32[10] + NET la_data_in_47_32[10] + DIRECTION INPUT + USE SIGNAL
+    - la_data_in_58_43[10] + NET la_data_in_58_43[10] + DIRECTION INPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 200330 2000 ) N ;
-    - la_data_in_47_32[11] + NET la_data_in_47_32[11] + DIRECTION INPUT + USE SIGNAL
+    - la_data_in_58_43[11] + NET la_data_in_58_43[11] + DIRECTION INPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 208150 2000 ) N ;
-    - la_data_in_47_32[12] + NET la_data_in_47_32[12] + DIRECTION INPUT + USE SIGNAL
+    - la_data_in_58_43[12] + NET la_data_in_58_43[12] + DIRECTION INPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 215970 2000 ) N ;
-    - la_data_in_47_32[13] + NET la_data_in_47_32[13] + DIRECTION INPUT + USE SIGNAL
+    - la_data_in_58_43[13] + NET la_data_in_58_43[13] + DIRECTION INPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 223790 2000 ) N ;
-    - la_data_in_47_32[14] + NET la_data_in_47_32[14] + DIRECTION INPUT + USE SIGNAL
+    - la_data_in_58_43[14] + NET la_data_in_58_43[14] + DIRECTION INPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 231610 2000 ) N ;
-    - la_data_in_47_32[15] + NET la_data_in_47_32[15] + DIRECTION INPUT + USE SIGNAL
+    - la_data_in_58_43[15] + NET la_data_in_58_43[15] + DIRECTION INPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 239430 2000 ) N ;
-    - la_data_in_47_32[1] + NET la_data_in_47_32[1] + DIRECTION INPUT + USE SIGNAL
+    - la_data_in_58_43[1] + NET la_data_in_58_43[1] + DIRECTION INPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 129950 2000 ) N ;
-    - la_data_in_47_32[2] + NET la_data_in_47_32[2] + DIRECTION INPUT + USE SIGNAL
+    - la_data_in_58_43[2] + NET la_data_in_58_43[2] + DIRECTION INPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 137770 2000 ) N ;
-    - la_data_in_47_32[3] + NET la_data_in_47_32[3] + DIRECTION INPUT + USE SIGNAL
+    - la_data_in_58_43[3] + NET la_data_in_58_43[3] + DIRECTION INPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 145590 2000 ) N ;
-    - la_data_in_47_32[4] + NET la_data_in_47_32[4] + DIRECTION INPUT + USE SIGNAL
+    - la_data_in_58_43[4] + NET la_data_in_58_43[4] + DIRECTION INPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 153410 2000 ) N ;
-    - la_data_in_47_32[5] + NET la_data_in_47_32[5] + DIRECTION INPUT + USE SIGNAL
+    - la_data_in_58_43[5] + NET la_data_in_58_43[5] + DIRECTION INPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 161230 2000 ) N ;
-    - la_data_in_47_32[6] + NET la_data_in_47_32[6] + DIRECTION INPUT + USE SIGNAL
+    - la_data_in_58_43[6] + NET la_data_in_58_43[6] + DIRECTION INPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 169050 2000 ) N ;
-    - la_data_in_47_32[7] + NET la_data_in_47_32[7] + DIRECTION INPUT + USE SIGNAL
+    - la_data_in_58_43[7] + NET la_data_in_58_43[7] + DIRECTION INPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 176870 2000 ) N ;
-    - la_data_in_47_32[8] + NET la_data_in_47_32[8] + DIRECTION INPUT + USE SIGNAL
+    - la_data_in_58_43[8] + NET la_data_in_58_43[8] + DIRECTION INPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 184690 2000 ) N ;
-    - la_data_in_47_32[9] + NET la_data_in_47_32[9] + DIRECTION INPUT + USE SIGNAL
+    - la_data_in_58_43[9] + NET la_data_in_58_43[9] + DIRECTION INPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 192510 2000 ) N ;
-    - la_data_in_49_48[0] + NET la_data_in_49_48[0] + DIRECTION INPUT + USE SIGNAL
+    - la_data_in_60_59[0] + NET la_data_in_60_59[0] + DIRECTION INPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 247250 2000 ) N ;
-    - la_data_in_49_48[1] + NET la_data_in_49_48[1] + DIRECTION INPUT + USE SIGNAL
+    - la_data_in_60_59[1] + NET la_data_in_60_59[1] + DIRECTION INPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 255070 2000 ) N ;
@@ -9937,63 +9937,63 @@ PINS 37 ;
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 262890 2000 ) N ;
-    - la_data_out_15_8[0] + NET la_data_out_15_8[0] + DIRECTION OUTPUT + USE SIGNAL
+    - la_data_out_23_16[0] + NET la_data_out_23_16[0] + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 4830 2000 ) N ;
-    - la_data_out_15_8[1] + NET la_data_out_15_8[1] + DIRECTION OUTPUT + USE SIGNAL
+    - la_data_out_23_16[1] + NET la_data_out_23_16[1] + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 12650 2000 ) N ;
-    - la_data_out_15_8[2] + NET la_data_out_15_8[2] + DIRECTION OUTPUT + USE SIGNAL
+    - la_data_out_23_16[2] + NET la_data_out_23_16[2] + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 20470 2000 ) N ;
-    - la_data_out_15_8[3] + NET la_data_out_15_8[3] + DIRECTION OUTPUT + USE SIGNAL
+    - la_data_out_23_16[3] + NET la_data_out_23_16[3] + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 28290 2000 ) N ;
-    - la_data_out_15_8[4] + NET la_data_out_15_8[4] + DIRECTION OUTPUT + USE SIGNAL
+    - la_data_out_23_16[4] + NET la_data_out_23_16[4] + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 36110 2000 ) N ;
-    - la_data_out_15_8[5] + NET la_data_out_15_8[5] + DIRECTION OUTPUT + USE SIGNAL
+    - la_data_out_23_16[5] + NET la_data_out_23_16[5] + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 43930 2000 ) N ;
-    - la_data_out_15_8[6] + NET la_data_out_15_8[6] + DIRECTION OUTPUT + USE SIGNAL
+    - la_data_out_23_16[6] + NET la_data_out_23_16[6] + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 51750 2000 ) N ;
-    - la_data_out_15_8[7] + NET la_data_out_15_8[7] + DIRECTION OUTPUT + USE SIGNAL
+    - la_data_out_23_16[7] + NET la_data_out_23_16[7] + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 59570 2000 ) N ;
-    - la_data_out_18_16[0] + NET la_data_out_18_16[0] + DIRECTION OUTPUT + USE SIGNAL
+    - la_data_out_26_24[0] + NET la_data_out_26_24[0] + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 67390 2000 ) N ;
-    - la_data_out_18_16[1] + NET la_data_out_18_16[1] + DIRECTION OUTPUT + USE SIGNAL
+    - la_data_out_26_24[1] + NET la_data_out_26_24[1] + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 75210 2000 ) N ;
-    - la_data_out_18_16[2] + NET la_data_out_18_16[2] + DIRECTION OUTPUT + USE SIGNAL
+    - la_data_out_26_24[2] + NET la_data_out_26_24[2] + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 83030 2000 ) N ;
-    - la_data_out_22_19[0] + NET la_data_out_22_19[0] + DIRECTION OUTPUT + USE SIGNAL
+    - la_data_out_30_27[0] + NET la_data_out_30_27[0] + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 90850 2000 ) N ;
-    - la_data_out_22_19[1] + NET la_data_out_22_19[1] + DIRECTION OUTPUT + USE SIGNAL
+    - la_data_out_30_27[1] + NET la_data_out_30_27[1] + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 98670 2000 ) N ;
-    - la_data_out_22_19[2] + NET la_data_out_22_19[2] + DIRECTION OUTPUT + USE SIGNAL
+    - la_data_out_30_27[2] + NET la_data_out_30_27[2] + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 106490 2000 ) N ;
-    - la_data_out_22_19[3] + NET la_data_out_22_19[3] + DIRECTION OUTPUT + USE SIGNAL
+    - la_data_out_30_27[3] + NET la_data_out_30_27[3] + DIRECTION OUTPUT + USE SIGNAL
       + PORT
         + LAYER met2 ( -140 -2000 ) ( 140 2000 )
         + PLACED ( 114310 2000 ) N ;
@@ -66367,89 +66367,89 @@ NETS 3656 ;
       NEW met1 ( 28750 17170 ) ( 30590 * )
       NEW li1 ( 32430 17510 ) L1M1_PR
       NEW li1 ( 28750 17170 ) L1M1_PR ;
-    - la_data_in_47_32[0] ( PIN la_data_in_47_32[0] ) ( input1 A ) + USE SIGNAL
+    - la_data_in_58_43[0] ( PIN la_data_in_58_43[0] ) ( input1 A ) + USE SIGNAL
       + ROUTED met2 ( 122130 3740 0 ) ( * 5780 )
       NEW met2 ( 122130 5780 ) ( 122590 * )
       NEW met2 ( 122590 5780 ) ( * 11730 )
       NEW li1 ( 122590 11730 ) L1M1_PR
       NEW met1 ( 122590 11730 ) M1M2_PR ;
-    - la_data_in_47_32[10] ( PIN la_data_in_47_32[10] ) ( input2 A ) + USE SIGNAL
+    - la_data_in_58_43[10] ( PIN la_data_in_58_43[10] ) ( input2 A ) + USE SIGNAL
       + ROUTED met2 ( 200330 3740 0 ) ( * 11390 )
       NEW met1 ( 200330 11390 ) ( 204470 * )
       NEW met1 ( 204470 11390 ) ( * 11730 )
       NEW met1 ( 200330 11390 ) M1M2_PR
       NEW li1 ( 204470 11730 ) L1M1_PR ;
-    - la_data_in_47_32[11] ( PIN la_data_in_47_32[11] ) ( input3 A ) + USE SIGNAL
+    - la_data_in_58_43[11] ( PIN la_data_in_58_43[11] ) ( input3 A ) + USE SIGNAL
       + ROUTED met2 ( 208150 3740 0 ) ( * 5780 )
       NEW met2 ( 208150 5780 ) ( 209070 * )
       NEW met2 ( 209070 5780 ) ( * 11730 )
       NEW met1 ( 209070 11730 ) ( 212290 * )
       NEW met1 ( 209070 11730 ) M1M2_PR
       NEW li1 ( 212290 11730 ) L1M1_PR ;
-    - la_data_in_47_32[12] ( PIN la_data_in_47_32[12] ) ( input4 A ) + USE SIGNAL
+    - la_data_in_58_43[12] ( PIN la_data_in_58_43[12] ) ( input4 A ) + USE SIGNAL
       + ROUTED met2 ( 215970 3740 0 ) ( * 11900 )
       NEW met2 ( 215970 11900 ) ( 216430 * )
       NEW met2 ( 216430 11730 ) ( * 11900 )
       NEW met1 ( 216430 11730 ) ( 217350 * )
       NEW met1 ( 216430 11730 ) M1M2_PR
       NEW li1 ( 217350 11730 ) L1M1_PR ;
-    - la_data_in_47_32[13] ( PIN la_data_in_47_32[13] ) ( input5 A ) + USE SIGNAL
+    - la_data_in_58_43[13] ( PIN la_data_in_58_43[13] ) ( input5 A ) + USE SIGNAL
       + ROUTED met2 ( 223790 3740 0 ) ( * 11730 )
       NEW met1 ( 223790 11730 ) ( 225170 * )
       NEW met1 ( 223790 11730 ) M1M2_PR
       NEW li1 ( 225170 11730 ) L1M1_PR ;
-    - la_data_in_47_32[14] ( PIN la_data_in_47_32[14] ) ( input6 A ) + USE SIGNAL
+    - la_data_in_58_43[14] ( PIN la_data_in_58_43[14] ) ( input6 A ) + USE SIGNAL
       + ROUTED met2 ( 231610 3740 0 ) ( * 5780 )
       NEW met2 ( 231610 5780 ) ( 232070 * )
       NEW met2 ( 232070 5780 ) ( * 11730 )
       NEW li1 ( 232070 11730 ) L1M1_PR
       NEW met1 ( 232070 11730 ) M1M2_PR ;
-    - la_data_in_47_32[15] ( PIN la_data_in_47_32[15] ) ( input7 A ) + USE SIGNAL
+    - la_data_in_58_43[15] ( PIN la_data_in_58_43[15] ) ( input7 A ) + USE SIGNAL
       + ROUTED met2 ( 239430 3740 0 ) ( * 5780 )
       NEW met2 ( 239430 5780 ) ( 239890 * )
       NEW met2 ( 239890 5780 ) ( * 11730 )
       NEW li1 ( 239890 11730 ) L1M1_PR
       NEW met1 ( 239890 11730 ) M1M2_PR ;
-    - la_data_in_47_32[1] ( PIN la_data_in_47_32[1] ) ( input8 A ) + USE SIGNAL
+    - la_data_in_58_43[1] ( PIN la_data_in_58_43[1] ) ( input8 A ) + USE SIGNAL
       + ROUTED met2 ( 129950 3740 0 ) ( * 5780 )
       NEW met2 ( 129490 5780 ) ( 129950 * )
       NEW met2 ( 129490 5780 ) ( * 11730 )
       NEW li1 ( 129490 11730 ) L1M1_PR
       NEW met1 ( 129490 11730 ) M1M2_PR ;
-    - la_data_in_47_32[2] ( PIN la_data_in_47_32[2] ) ( input9 A ) + USE SIGNAL
+    - la_data_in_58_43[2] ( PIN la_data_in_58_43[2] ) ( input9 A ) + USE SIGNAL
       + ROUTED met2 ( 137770 3740 0 ) ( * 11730 )
       NEW met2 ( 137770 11730 ) ( 138230 * )
       NEW li1 ( 138230 11730 ) L1M1_PR
       NEW met1 ( 138230 11730 ) M1M2_PR ;
-    - la_data_in_47_32[3] ( PIN la_data_in_47_32[3] ) ( input10 A ) + USE SIGNAL
+    - la_data_in_58_43[3] ( PIN la_data_in_58_43[3] ) ( input10 A ) + USE SIGNAL
       + ROUTED met2 ( 145590 3740 0 ) ( * 11730 )
       NEW met1 ( 145590 11730 ) ( 147890 * )
       NEW met1 ( 145590 11730 ) M1M2_PR
       NEW li1 ( 147890 11730 ) L1M1_PR ;
-    - la_data_in_47_32[4] ( PIN la_data_in_47_32[4] ) ( input11 A ) + USE SIGNAL
+    - la_data_in_58_43[4] ( PIN la_data_in_58_43[4] ) ( input11 A ) + USE SIGNAL
       + ROUTED met2 ( 153410 3740 0 ) ( * 11730 )
       NEW met2 ( 153410 11730 ) ( 153870 * )
       NEW li1 ( 153870 11730 ) L1M1_PR
       NEW met1 ( 153870 11730 ) M1M2_PR ;
-    - la_data_in_47_32[5] ( PIN la_data_in_47_32[5] ) ( input12 A ) + USE SIGNAL
+    - la_data_in_58_43[5] ( PIN la_data_in_58_43[5] ) ( input12 A ) + USE SIGNAL
       + ROUTED met2 ( 161230 3740 0 ) ( * 13800 )
       NEW met2 ( 161230 13800 ) ( 161690 * )
       NEW met2 ( 161690 13800 ) ( * 15130 )
       NEW li1 ( 161690 15130 ) L1M1_PR
       NEW met1 ( 161690 15130 ) M1M2_PR ;
-    - la_data_in_47_32[6] ( PIN la_data_in_47_32[6] ) ( input13 A ) + USE SIGNAL
+    - la_data_in_58_43[6] ( PIN la_data_in_58_43[6] ) ( input13 A ) + USE SIGNAL
       + ROUTED met2 ( 169050 3740 0 ) ( * 11730 )
       NEW met2 ( 169050 11730 ) ( 170430 * )
       NEW met1 ( 170430 11730 ) ( 173650 * )
       NEW met1 ( 170430 11730 ) M1M2_PR
       NEW li1 ( 173650 11730 ) L1M1_PR ;
-    - la_data_in_47_32[7] ( PIN la_data_in_47_32[7] ) ( input14 A ) + USE SIGNAL
+    - la_data_in_58_43[7] ( PIN la_data_in_58_43[7] ) ( input14 A ) + USE SIGNAL
       + ROUTED met2 ( 176870 3740 0 ) ( * 11390 )
       NEW met1 ( 176870 11390 ) ( 178710 * )
       NEW met1 ( 178710 11390 ) ( * 11730 )
       NEW met1 ( 176870 11390 ) M1M2_PR
       NEW li1 ( 178710 11730 ) L1M1_PR ;
-    - la_data_in_47_32[8] ( PIN la_data_in_47_32[8] ) ( input15 A ) + USE SIGNAL
+    - la_data_in_58_43[8] ( PIN la_data_in_58_43[8] ) ( input15 A ) + USE SIGNAL
       + ROUTED met2 ( 184690 3740 0 ) ( * 4420 )
       NEW met2 ( 184690 4420 ) ( 185150 * )
       NEW met2 ( 185150 3740 ) ( * 4420 )
@@ -66458,19 +66458,19 @@ NETS 3656 ;
       NEW met1 ( 186070 11730 ) ( 193890 * )
       NEW met1 ( 186070 11730 ) M1M2_PR
       NEW li1 ( 193890 11730 ) L1M1_PR ;
-    - la_data_in_47_32[9] ( PIN la_data_in_47_32[9] ) ( input16 A ) + USE SIGNAL
+    - la_data_in_58_43[9] ( PIN la_data_in_58_43[9] ) ( input16 A ) + USE SIGNAL
       + ROUTED met2 ( 192510 3740 0 ) ( * 12070 )
       NEW met1 ( 192510 12070 ) ( 199410 * )
       NEW met1 ( 199410 11730 ) ( * 12070 )
       NEW met1 ( 192510 12070 ) M1M2_PR
       NEW li1 ( 199410 11730 ) L1M1_PR ;
-    - la_data_in_49_48[0] ( PIN la_data_in_49_48[0] ) ( input17 A ) + USE SIGNAL
+    - la_data_in_60_59[0] ( PIN la_data_in_60_59[0] ) ( input17 A ) + USE SIGNAL
       + ROUTED met2 ( 247250 3740 0 ) ( * 6460 )
       NEW met2 ( 247250 6460 ) ( 247710 * )
       NEW met2 ( 247710 6460 ) ( * 12070 )
       NEW li1 ( 247710 12070 ) L1M1_PR
       NEW met1 ( 247710 12070 ) M1M2_PR ;
-    - la_data_in_49_48[1] ( PIN la_data_in_49_48[1] ) ( input18 A ) + USE SIGNAL
+    - la_data_in_60_59[1] ( PIN la_data_in_60_59[1] ) ( input18 A ) + USE SIGNAL
       + ROUTED met2 ( 255070 3740 0 ) ( * 7140 )
       NEW met2 ( 255070 7140 ) ( 255990 * )
       NEW met2 ( 255990 7140 ) ( * 11730 )
@@ -66481,69 +66481,69 @@ NETS 3656 ;
       NEW met1 ( 259670 12070 ) ( 262890 * )
       NEW met1 ( 262890 12070 ) M1M2_PR
       NEW li1 ( 259670 12070 ) L1M1_PR ;
-    - la_data_out_15_8[0] ( PIN la_data_out_15_8[0] ) ( output20 X ) + USE SIGNAL
+    - la_data_out_23_16[0] ( PIN la_data_out_23_16[0] ) ( output20 X ) + USE SIGNAL
       + ROUTED met2 ( 4830 3740 0 ) ( * 14790 )
       NEW met1 ( 4830 14790 ) ( 9430 * )
       NEW met1 ( 4830 14790 ) M1M2_PR
       NEW li1 ( 9430 14790 ) L1M1_PR ;
-    - la_data_out_15_8[1] ( PIN la_data_out_15_8[1] ) ( output21 X ) + USE SIGNAL
+    - la_data_out_23_16[1] ( PIN la_data_out_23_16[1] ) ( output21 X ) + USE SIGNAL
       + ROUTED met2 ( 12650 3740 0 ) ( * 12410 )
       NEW met2 ( 12650 12410 ) ( 14030 * )
       NEW li1 ( 14030 12410 ) L1M1_PR
       NEW met1 ( 14030 12410 ) M1M2_PR ;
-    - la_data_out_15_8[2] ( PIN la_data_out_15_8[2] ) ( output22 X ) + USE SIGNAL
+    - la_data_out_23_16[2] ( PIN la_data_out_23_16[2] ) ( output22 X ) + USE SIGNAL
       + ROUTED met1 ( 20470 14450 ) ( 23690 * )
       NEW met1 ( 23690 14450 ) ( * 14790 )
       NEW met2 ( 20470 3740 0 ) ( * 14450 )
       NEW met1 ( 20470 14450 ) M1M2_PR
       NEW li1 ( 23690 14790 ) L1M1_PR ;
-    - la_data_out_15_8[3] ( PIN la_data_out_15_8[3] ) ( output23 X ) + USE SIGNAL
+    - la_data_out_23_16[3] ( PIN la_data_out_23_16[3] ) ( output23 X ) + USE SIGNAL
       + ROUTED met2 ( 28290 3740 0 ) ( * 5780 )
       NEW met2 ( 28290 5780 ) ( 28750 * )
       NEW met2 ( 28750 5780 ) ( * 11730 )
       NEW li1 ( 28750 11730 ) L1M1_PR
       NEW met1 ( 28750 11730 ) M1M2_PR ;
-    - la_data_out_15_8[4] ( PIN la_data_out_15_8[4] ) ( output24 X ) + USE SIGNAL
+    - la_data_out_23_16[4] ( PIN la_data_out_23_16[4] ) ( output24 X ) + USE SIGNAL
       + ROUTED met2 ( 36110 3740 0 ) ( * 12410 )
       NEW met1 ( 36110 12410 ) ( 38870 * )
       NEW met1 ( 36110 12410 ) M1M2_PR
       NEW li1 ( 38870 12410 ) L1M1_PR ;
-    - la_data_out_15_8[5] ( PIN la_data_out_15_8[5] ) ( output25 X ) + USE SIGNAL
+    - la_data_out_23_16[5] ( PIN la_data_out_23_16[5] ) ( output25 X ) + USE SIGNAL
       + ROUTED met2 ( 43930 3740 0 ) ( * 13800 )
       NEW met2 ( 43930 13800 ) ( 44850 * )
       NEW met2 ( 44850 13800 ) ( * 14790 )
       NEW met1 ( 44850 14790 ) ( 46690 * )
       NEW met1 ( 44850 14790 ) M1M2_PR
       NEW li1 ( 46690 14790 ) L1M1_PR ;
-    - la_data_out_15_8[6] ( PIN la_data_out_15_8[6] ) ( output26 X ) + USE SIGNAL
+    - la_data_out_23_16[6] ( PIN la_data_out_23_16[6] ) ( output26 X ) + USE SIGNAL
       + ROUTED met2 ( 51750 3740 0 ) ( * 12410 )
       NEW met2 ( 51750 12410 ) ( 52210 * )
       NEW li1 ( 52210 12410 ) L1M1_PR
       NEW met1 ( 52210 12410 ) M1M2_PR ;
-    - la_data_out_15_8[7] ( PIN la_data_out_15_8[7] ) ( output27 X ) + USE SIGNAL
+    - la_data_out_23_16[7] ( PIN la_data_out_23_16[7] ) ( output27 X ) + USE SIGNAL
       + ROUTED met2 ( 59570 3740 0 ) ( * 14790 )
       NEW met1 ( 59570 14790 ) ( 62330 * )
       NEW li1 ( 62330 14790 ) L1M1_PR
       NEW met1 ( 59570 14790 ) M1M2_PR ;
-    - la_data_out_18_16[0] ( PIN la_data_out_18_16[0] ) ( output28 X ) + USE SIGNAL
+    - la_data_out_26_24[0] ( PIN la_data_out_26_24[0] ) ( output28 X ) + USE SIGNAL
       + ROUTED met2 ( 67390 3740 0 ) ( * 11730 )
       NEW li1 ( 67390 11730 ) L1M1_PR
       NEW met1 ( 67390 11730 ) M1M2_PR ;
-    - la_data_out_18_16[1] ( PIN la_data_out_18_16[1] ) ( output29 X ) + USE SIGNAL
+    - la_data_out_26_24[1] ( PIN la_data_out_26_24[1] ) ( output29 X ) + USE SIGNAL
       + ROUTED met2 ( 75210 3740 0 ) ( * 12410 )
       NEW met1 ( 75210 12410 ) ( 77970 * )
       NEW met1 ( 75210 12410 ) M1M2_PR
       NEW li1 ( 77970 12410 ) L1M1_PR ;
-    - la_data_out_18_16[2] ( PIN la_data_out_18_16[2] ) ( output30 X ) + USE SIGNAL
+    - la_data_out_26_24[2] ( PIN la_data_out_26_24[2] ) ( output30 X ) + USE SIGNAL
       + ROUTED met1 ( 83030 14790 ) ( 85790 * )
       NEW met2 ( 83030 3740 0 ) ( * 14790 )
       NEW met1 ( 83030 14790 ) M1M2_PR
       NEW li1 ( 85790 14790 ) L1M1_PR ;
-    - la_data_out_22_19[0] ( PIN la_data_out_22_19[0] ) ( output31 X ) + USE SIGNAL
+    - la_data_out_30_27[0] ( PIN la_data_out_30_27[0] ) ( output31 X ) + USE SIGNAL
       + ROUTED met2 ( 90850 3740 0 ) ( * 12410 )
       NEW li1 ( 90850 12410 ) L1M1_PR
       NEW met1 ( 90850 12410 ) M1M2_PR ;
-    - la_data_out_22_19[1] ( PIN la_data_out_22_19[1] ) ( output32 X ) + USE SIGNAL
+    - la_data_out_30_27[1] ( PIN la_data_out_30_27[1] ) ( output32 X ) + USE SIGNAL
       + ROUTED met2 ( 98670 3740 0 ) ( * 4420 )
       NEW met2 ( 98670 4420 ) ( 99130 * )
       NEW met2 ( 99130 3740 ) ( * 4420 )
@@ -66552,11 +66552,11 @@ NETS 3656 ;
       NEW met2 ( 100050 3740 ) ( * 14790 )
       NEW met1 ( 100050 14790 ) M1M2_PR
       NEW li1 ( 101430 14790 ) L1M1_PR ;
-    - la_data_out_22_19[2] ( PIN la_data_out_22_19[2] ) ( output33 X ) + USE SIGNAL
+    - la_data_out_30_27[2] ( PIN la_data_out_30_27[2] ) ( output33 X ) + USE SIGNAL
       + ROUTED met2 ( 106490 3740 0 ) ( * 11730 )
       NEW li1 ( 106490 11730 ) L1M1_PR
       NEW met1 ( 106490 11730 ) M1M2_PR ;
-    - la_data_out_22_19[3] ( PIN la_data_out_22_19[3] ) ( output34 X ) + USE SIGNAL
+    - la_data_out_30_27[3] ( PIN la_data_out_30_27[3] ) ( output34 X ) + USE SIGNAL
       + ROUTED met2 ( 114310 3740 0 ) ( * 4420 )
       NEW met2 ( 114310 4420 ) ( 114770 * )
       NEW met2 ( 114770 3740 ) ( * 4420 )
