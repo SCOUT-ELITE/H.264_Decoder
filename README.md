@@ -29,10 +29,19 @@ At the core of our team's mission lies the spirit of open-source sharing. Throug
 **Block Diagram**
 ![Screenshot](docs/block_diagram.png)
 
+**Design Spec Estimation**
+| Specifications                | Number     |
+| :---------------------------- | :--------: |
+| Inputs                        | 20         |
+| Outputs                       | 15         |
+| Estimate Core Area (mm^2)     | 0.068      |
+
 **Conclusion:**
 
 As a team committed to enhancing video playback performance through this H.264 video decoder project, our efforts stem from a deep understanding of the challenges faced by camera and object detection algorithms. By delivering an open-source, high-performance solution, we aspire to empower developers worldwide, paving the way for real-time video processing in an array of applications.
 
+
+# Caravel User Project
 
 | :exclamation: Important Note            |
 |-----------------------------------------|
